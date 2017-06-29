@@ -24,6 +24,7 @@ include dirname(__FILE__) . '/lib/input.php';
 if (isset($_GET['send'])) {
 	$form['name'] = input::getStr($_POST['name']);
 //	$form['email'] = input::getStr($_POST['email']);
+	$form['form_id'] = input::getStr($_POST['form_id']);
 	$form['phone'] = input::getStr($_POST['phone']);
 	
 	if (empty($form['name'])) {
