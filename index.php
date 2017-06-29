@@ -90,11 +90,11 @@ if (isset($_GET['send'])) {
     $mail->CharSet="UTF-8";  // Кодировка обмена сообщениями с SMTP сервером
     $mail->Username   = $__smtp['username'];  // Имя пользователя на SMTP сервере
     $mail->Password   = $__smtp['password'];  // Пароль от учетной записи на SMTP сервере
-	$mail->AddAddress('26emic73@gmail.com', 'John Doe');  // Адресат почтового сообщения
-    $mail->AddAddress('andkorol.reg@gmail.com', 'John Doe');  // Адресат почтового сообщения
-//	$mail->AddAddress('sales@fitlab-studio.ru', 'John Doe');  // Адресат почтового сообщения
-//    $mail->AddReplyTo($__smtp['addreply'], 'First Last');  // Альтернативный адрес для ответа
-//    $mail->SetFrom($__smtp['username'], $__smtp['mail_title']);  // Адресант почтового сообщения
+    $mail->AddAddress('aevcpa@yandex.ru', 'John Doe');  // Адресат почтового сообщения
+    $mail->AddAddress('KKhizhniak@synergy.ru', 'John Doe');  // Адресат почтового сообщения
+    $mail->AddAddress('sales@fitlab-studio.ru', 'John Doe');  // Адресат почтового сообщения
+    $mail->AddReplyTo($__smtp['addreply'], 'First Last');  // Альтернативный адрес для ответа
+    $mail->SetFrom($__smtp['username'], $__smtp['mail_title']);  // Адресант почтового сообщения
   
 
   

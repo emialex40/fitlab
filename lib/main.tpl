@@ -136,7 +136,7 @@
 						<div id="text-1" class="popup hide-content">
 							<a class="popup-close" href="#" onclick="$.fancybox.close(); return false;"></a>
                             <div class="popup_img">
-                                <img src="files/foto3(2).JPG" alt="">
+                                <img src="files/foto3(2).jpg" alt="foto3">
                             </div>
 							<div class="popup-title">Персональные тренировки в тренажерном зале</div>
 							<div class="popup-text">
@@ -171,7 +171,7 @@
 						<div id="text-2" class="popup hide-content">
 							<a class="popup-close" href="#" onclick="$.fancybox.close(); return false;"></a>
                             <div class="popup_img">
-                                <img src="files/foto1(personal).JPG" alt="">
+                                <img src="files/foto1(personal).jpg" alt="foto1">
                             </div>
                             <div class="popup-title"><!--Персональные тренировки: -->пилатес в профессиональной студии и на тренажерах</div>
 							<div class="popup-text">
@@ -209,7 +209,7 @@
 						<div id="text-4" class="popup hide-content">
 							<a class="popup-close" href="#" onclick="$.fancybox.close(); return false;"></a>
                             <div class="popup_img">
-                                <img src="files/species_4.png" alt="">
+                                <img src="files/species_4.png" alt="species_4">
                             </div>
 							<div class="popup-title">Персональные тренировки: функциональный тренинг</div>
 							<div class="popup-text">
@@ -243,7 +243,7 @@
 						<div id="text-3" class="popup hide-content">
 							<a class="popup-close" href="#" onclick="$.fancybox.close(); return false;"></a>
                             <div class="popup_img">
-                                <img src="files/foto2.(personal).JPG" alt="">
+                                <img src="files/foto2.(personal).jpg" alt="foto2">
                             </div>
                             <div class="popup-title">Тренировки с персональным тренером в малых группах</div>
 							<div class="popup-text">
@@ -811,47 +811,47 @@
             <div class="photo_slider">
                 <div class="photo_item">
                     <a class="fancybox" rel="photo" href="files/gallery/1.JPG">
-                        <img src="files/gallery/min/1.min.JPG" alt="1">
+                        <img src="files/gallery/min/1.min.jpg" alt="1">
                     </a>
                 </div>
                 <div class="photo_item">
                     <a class="fancybox" rel="photo" href="files/gallery/2.JPG">
-                        <img src="files/gallery/min/2.min.JPG" alt="1">
+                        <img src="files/gallery/min/2.min.jpg" alt="1">
                     </a>
                 </div>
                 <div class="photo_item">
                     <a class="fancybox" rel="photo" href="files/gallery/3.JPG">
-                        <img src="files/gallery/min/3.min.JPG" alt="1">
+                        <img src="files/gallery/min/3.min.jpg" alt="1">
                     </a>
                 </div>
                 <div class="photo_item">
                     <a class="fancybox" rel="photo" href="files/gallery/4.JPG">
-                        <img src="files/gallery/min/4.min.JPG" alt="1">
+                        <img src="files/gallery/min/4.min.jpg" alt="1">
                     </a>
                 </div>
                 <div class="photo_item">
                     <a class="fancybox" rel="photo" href="files/gallery/5.JPG">
-                        <img src="files/gallery/min/5.min.JPG" alt="1">
+                        <img src="files/gallery/min/5.min.jpg" alt="1">
                     </a>
                 </div>
                 <div class="photo_item">
                     <a class="fancybox" rel="photo" href="files/gallery/6.JPG">
-                        <img src="files/gallery/min/6.min.JPG" alt="1">
+                        <img src="files/gallery/min/6.min.jpg" alt="1">
                     </a>
                 </div>
                 <div class="photo_item">
-                    <a class="fancybox" rel="photo" href="files/gallery/7.JPG">
-                        <img src="files/gallery/min/7.min.JPG" alt="1">
+                    <a class="fancybox" rel="photo" href="files/gallery/7.jpg">
+                        <img src="files/gallery/min/7.min.jpg" alt="1">
                     </a>
                 </div>
                 <div class="photo_item">
-                    <a class="fancybox" rel="photo" href="files/gallery/8.JPG">
-                        <img src="files/gallery/min/8.min.JPG" alt="1">
+                    <a class="fancybox" rel="photo" href="files/gallery/8.jpg">
+                        <img src="files/gallery/min/8.min.jpg" alt="1">
                     </a>
                 </div>
                 <div class="photo_item">
                     <a class="fancybox" rel="photo" href="files/gallery/9.JPG">
-                        <img src="files/gallery/min/9.min.JPG" alt="1">
+                        <img src="files/gallery/min/9.min.jpg" alt="1">
                     </a>
                 </div>
             </div>
