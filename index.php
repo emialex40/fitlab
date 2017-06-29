@@ -98,8 +98,9 @@ if (isset($_GET['send'])) {
   
 
   
-	$mail->Subject = 'Запись на персональную тренировку';
-	
+//	$mail->Subject = 'Запись на персональную тренировку';
+    $mail->Subject = $email_title;
+
 	$mail->Body = '
 		<p>
 				<strong>Дата:</strong> ' . date('d.m.Y H:i') . '

@@ -46,7 +46,7 @@
 			
 			<div class="header_online">
 				<div class="header_online-phone"><a href="tel:+7(499)350-57-19">+7 (499) 350 57 19</a></div>
-				<div class="header_online-title">Закажите<br>обратный<br>звонок</div>
+				<div class="header_online-title">Узнайте условия<br>получения скидки</div>
 				<div class="header_online-text">консультация тренера +<br>клубная карта в подарок!</div>
 				<form class="js-form">
 					<div class="header_online-row">
