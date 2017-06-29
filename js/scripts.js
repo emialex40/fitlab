@@ -21,7 +21,7 @@ $(function(){
 	$('.photo_slider').slick({
 		slidesToShow: 1,
 		slidesToScroll: 1,
-		autoplay: false,
+		autoplay: true,
 		autoplaySpeed: 2000,
 		arrows: true,
 		nextArrow: '<span class="prev"><img src="img/slider_2-prev.png"></span>',
