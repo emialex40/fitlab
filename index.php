@@ -59,6 +59,8 @@ if (isset($_GET['send'])) {
 			'form14' => 'ЗАПИСАТЬСЯ НА ПРОСМОТР КЛУБА',
 			'form15' => 'Мы свяжемся с вами в ближайшее время'
 		);
+
+        $email_title = (!empty($form['form_id']) && in_array($form['form_id'], array_keys($email_headers))) ? $email_headers[$form['form_id']] : $email_headers['form0'];
 		
 	$__smtp = array(
 			"host" => 'smtp.yandex.ru', // SMTP сервер
