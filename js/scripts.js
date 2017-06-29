@@ -8,6 +8,16 @@ $(function(){
 		e.preventDefault();
 	});
 
+
+    $('.politiс').on('click', function(){
+        $('.politic_parent_popup, .politic_popup').css('display', 'block');
+    });
+
+    $('.politic_close, .politic_parent_popup').on('click', function(){
+        $('.politic_parent_popup, .politic_popup').css('display', 'none');
+    });
+
+
 	$('.photo_slider').slick({
 		slidesToShow: 1,
 		slidesToScroll: 1,
@@ -49,10 +59,11 @@ $(function(){
 	$('.popup-slider').slick({
 		slidesToShow: 1,
 		slidesToScroll: 1,
-		autoplay: false,
+		autoplay: true,
 		autoplaySpeed: 2000,
-		arrows: true,
-		dots: false
+		arrows: false,
+		dots: true,
+        fade: true,
 		nextArrow: '<span class="prev"><img src="img/slider_2-prev.png"></span>',
 		prevArrow: '<span class="next"><img src="img/slider_2-next.png"></span>',
 		responsive: [
