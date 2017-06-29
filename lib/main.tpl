@@ -56,7 +56,7 @@
 						<input class="input-1 js-phone" type="text" name="phone" placeholder="Телефон">
 					</div>
 						<input type="hidden" name="form_id" value="form1">
-					<input class="header_online-btn" type="submit" value="ЗАКАЗАТЬ">
+					<input class="header_online-btn" type="submit" value="ПОзвоните мне">
 				</form>
 			</div>
 		</div>
@@ -1168,6 +1168,9 @@
 			<div class="footer_logo">
 				<span class="footer_logo-img"></span> 
 			</div>
+            <div class="politic">
+                <a class="fancybox" href="https://drive.google.com/open?id=0B8sUGFsXTs5uT3BzZWdSRDRUYkU">Политика конфидециальности</a>
+            </div>
 		</div>
 	</footer> 
 

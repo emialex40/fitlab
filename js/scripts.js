@@ -49,11 +49,10 @@ $(function(){
 	$('.popup-slider').slick({
 		slidesToShow: 1,
 		slidesToScroll: 1,
-		autoplay: true,
+		autoplay: false,
 		autoplaySpeed: 2000,
-		arrows: false,
-		dots: true,
-		fade: true,
+		arrows: true,
+		dots: false
 		nextArrow: '<span class="prev"><img src="img/slider_2-prev.png"></span>',
 		prevArrow: '<span class="next"><img src="img/slider_2-next.png"></span>',
 		responsive: [
@@ -198,7 +197,7 @@ $(function(){
 					if (data == 'true') {
 						$(iname).val('');
 						$(iphone).val('');
-						$(iemail).val('');
+						//$(iemail).val('');
 						alert('Спасибо, ваша заявка отправлена.');
 						
 					}		
