@@ -23,16 +23,16 @@ include dirname(__FILE__) . '/lib/input.php';
 
 if (isset($_GET['send'])) {
 	$form['name'] = input::getStr($_POST['name']);
-	$form['email'] = input::getStr($_POST['email']);
+//	$form['email'] = input::getStr($_POST['email']);
 	$form['phone'] = input::getStr($_POST['phone']);
 	
 	if (empty($form['name'])) {
 		$error['name'] = 1;
 	}
 	
-	if (empty($form['email'])) {
-		$error['email'] = 1;
-	}
+//	if (empty($form['email'])) {
+//		$error['email'] = 1;
+//	}
 	
 	if (empty($form['phone'])) {
 		$error['phone'] = 1;
@@ -49,7 +49,7 @@ if (isset($_GET['send'])) {
 			"password" => '8904361655', // Пароль
 			"addreply" => 'fitlabstudio2017@yandex.ru', // Почта для ответа
 			"secure" => 'ssl', // Тип шифрования. Например ssl или tls
-			"mail_title" => 'ЛП fitlab-studio "Персональный тренинг"!', // Заголовок письма
+//			"mail_title" => 'ЛП fitlab-studio "Персональный тренинг"!', // Заголовок письма
 			"mail_name" => 'fitlab-studio ' // Имя отправителя
 	); 
 
