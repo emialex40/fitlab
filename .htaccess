@@ -1,0 +1,15 @@
+AddCharset utf-8 .css .js .json .rss .xml
+
+Options -Indexes
+
+<FilesMatch ".(htaccess)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !^favicon\.ico
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php [L,QSA]
