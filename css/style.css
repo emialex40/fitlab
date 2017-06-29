@@ -30,6 +30,7 @@
 		background: url(../img/header-logo.png) 0 0 no-repeat;
 		width: 514px;
 		height: 305px;
+        display: none;
 	}
 	.header-slogan{
 		position: absolute;
@@ -39,12 +40,13 @@
 		font-family: "Roboto bold";
 		color: rgb(255, 255, 255);
 		line-height: 48px;
+        display: none;
 	}
 	.header-text{
 		position: absolute;
 		left: 1px;
-		top: 419px;
-		font-size: 24px;
+		top: 240px;
+		font-size: 32px;
 		line-height: 35px;	
 		color: rgb(255, 255, 255);
 		text-transform: uppercase;

@@ -30,7 +30,7 @@
 			<div class="header-logo_min"></div>
 			<div class="header-logo"></div>
 			<div class="header-slogan">Ваша персональная<br>фитнес-лаборатория</div>
-			<div class="header-text">ПРАВИЛЬНЫЙ ФИТНЕС В УСЛОВИЯХ<br> БОЛЬШОГО ГОРОДА!</div>
+			<div class="header-text">ПРАВИЛЬНЫЙ ФИТНЕС<br/> В УСЛОВИЯХ БОЛЬШОГО<br/> ГОРОДА!</div>
 
 			<div class="header-arrow">
 				<a class="tlink" href="#h_menu">

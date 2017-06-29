@@ -69,7 +69,7 @@ if (isset($_GET['send'])) {
 			"password" => '8904361655', // Пароль
 			"addreply" => 'fitlabstudio2017@yandex.ru', // Почта для ответа
 			"secure" => 'ssl', // Тип шифрования. Например ssl или tls
-//			"mail_title" => 'ЛП fitlab-studio "Персональный тренинг"!', // Заголовок письма
+			"mail_title" => 'ЛП fitlab-studio "Персональный тренинг"!', // Заголовок письма
 			"mail_name" => 'fitlab-studio ' // Имя отправителя
 	); 
 
