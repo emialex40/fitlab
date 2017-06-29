@@ -9,6 +9,11 @@
 	background-size: cover;
 	height: 808px;
 }
+
+.header_input-mask{
+    display: none;
+}
+
 	.header-logo_min {
 		position: absolute;
 		left: 0;

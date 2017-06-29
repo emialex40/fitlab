@@ -54,10 +54,8 @@
 					</div>	
 					<div class="header_online-row">
 						<input class="input-1 js-phone" type="text" name="phone" placeholder="Телефон">
-					</div>	
-					<!--<div class="header_online-row">
-						<input class="input-1" type="text" name="email" placeholder="E-mail">
-					</div>	-->
+					</div>
+						<input type="hidden" name="form_id" value="form1">
 					<input class="header_online-btn" type="submit" value="ЗАКАЗАТЬ">
 				</form>
 			</div>
@@ -113,10 +111,8 @@
 					</div>	
 					<div class="online_form-row">
 						<input class="input-2 js-phone" type="text" name="phone" placeholder="Телефон">
-					</div>	
-					<!--<div class="online_form-row">
-						<input class="input-2" type="text" name="email" placeholder="E-mail">
-					</div>	-->
+					</div>
+                    <input type="hidden" name="form_id" value="form2">
 					<div class="online_form-row">
 						<input class="online_form-btn" type="submit" value="записаться">
 					</div>
@@ -156,10 +152,8 @@
 									</div>	
 									<div class="popup_form-row">
 										<input class="input-2 js-phone" type="text" name="phone" placeholder="Телефон">
-									</div>	
-									<!--<div class="popup_form-row">
-										<input class="input-2" type="text" name="email" placeholder="E-mail">
-									</div>-->
+									</div>
+                                    <input type="hidden" name="form_id" value="form3">
                                     <div class="popup_form-row">
 									    <input class="popup_form-btn" type="submit" value="ОТПРАВИТЬ ЗАПРОС">
                                     </div>
@@ -196,10 +190,8 @@
 									</div>	
 									<div class="popup_form-row">
 										<input class="input-2 js-phone" type="text" name="phone" placeholder="Телефон">
-									</div>	
-									<!--<div class="popup_form-row">
-										<input class="input-2" type="text" name="email" placeholder="E-mail">
-									</div>	-->
+									</div>
+                                    <input type="hidden" name="form_id" value="form4">
                                     <div class="popup_form-row">
 									    <input class="popup_form-btn" type="submit" value="Записаться">
                                     </div>
@@ -233,10 +225,8 @@
 									</div>	
 									<div class="popup_form-row">
 										<input class="input-2 js-phone" type="text" name="phone" placeholder="Телефон">
-									</div>	
-									<!--<div class="popup_form-row">
-										<input class="input-2" type="text" name="email" placeholder="E-mail">
-									</div>-->
+									</div>
+                                    <input type="hidden" name="form_id" value="form5">
                                     <div class="popup_form-row">
 									    <input class="popup_form-btn" type="submit" value="Записаться">
                                     </div>
@@ -270,10 +260,8 @@
 									</div>	
 									<div class="popup_form-row">
 										<input class="input-2 js-phone" type="text" name="phone" placeholder="Телефон">
-									</div>	
-									<!--<div class="popup_form-row">
-										<input class="input-2" type="text" name="email" placeholder="E-mail">
-									</div>-->
+									</div>
+                                    <input type="hidden" name="form_id" value="form6">
                                     <div class="popup_form-row">
 									    <input class="popup_form-btn" type="submit" value="Записаться">
                                     </div>
@@ -314,10 +302,8 @@
 					</div>	
 					<div class="online_form-row">
 						<input class="input-2 js-phone" type="text" name="phone" placeholder="Телефон">
-					</div>	
-					<!--<div class="online_form-row">
-						<input class="input-2" type="text" name="email" placeholder="E-mail">
-					</div> -->
+					</div>
+                    <input type="hidden" name="form_id" value="form7">
 					<div class="online_form-row">
 						<input class="online_form-btn" type="submit" value="узнать">
 					</div>
@@ -393,10 +379,8 @@
 										</div>	
 										<div class="popup_form-row">
 											<input class="input-2 js-phone" type="text" name="phone" placeholder="Телефон">
-										</div>	
-										<!--<div class="popup_form-row">
-											<input class="input-2" type="text" name="email" placeholder="E-mail">
-										</div>-->
+										</div>
+                                        <input type="hidden" name="form_id" value="form8">
                                         <div class="popup_form-row">
 										    <input class="popup_form-btn" type="submit" value="Записаться">
                                         </div>
@@ -466,10 +450,8 @@
 										</div>	
 										<div class="popup_form-row">
 											<input class="input-2 js-phone" type="text" name="phone" placeholder="Телефон">
-										</div>	
-										<!--<div class="popup_form-row">
-											<input class="input-2" type="text" name="email" placeholder="E-mail">
-										</div>-->
+										</div>
+                                        <input type="hidden" name="form_id" value="form9">
                                         <div class="popup_form-row">
 										    <input class="popup_form-btn" type="submit" value="Записаться">
                                         </div>
@@ -536,10 +518,8 @@
 										</div>	
 										<div class="popup_form-row">
 											<input class="input-2 js-phone" type="text" name="phone" placeholder="Телефон">
-										</div>	
-										<!--<div class="popup_form-row">
-											<input class="input-2" type="text" name="email" placeholder="E-mail">
-										</div>-->
+										</div>
+                                        <input type="hidden" name="form_id" value="form10">
                                         <div class="popup_form-row">
 										    <input class="popup_form-btn" type="submit" value="Записаться">
                                         </div>
@@ -603,10 +583,8 @@
 										</div>	
 										<div class="popup_form-row">
 											<input class="input-2 js-phone" type="text" name="phone" placeholder="Телефон">
-										</div>	
-										<!--<div class="popup_form-row">
-											<input class="input-2" type="text" name="email" placeholder="E-mail">
-										</div>-->
+										</div>
+                                        <input type="hidden" name="form_id" value="form11">
                                         <div class="popup_form-row">
 										    <input class="popup_form-btn" type="submit" value="Узнать">
                                         </div>
@@ -687,9 +665,7 @@
 					<div class="online_form-row">
 						<input class="input-2 js-phone" type="text" name="phone" placeholder="Телефон">
 					</div>	
-					<!-- <div class="online_form-row">
-						<input class="input-2" type="text" name="email" placeholder="E-mail">
-					</div>	-->
+					<<input type="hidden" name="form_id" value="form12">
 					<div class="online_form-row">
 						<input class="online_form-btn" type="submit" value="Записаться">
 					</div>
@@ -995,10 +971,8 @@
 					</div>	
 					<div class="online_form-row">
 						<input class="input-2 js-phone" type="text" name="phone" placeholder="Телефон">
-					</div>	
-					<!--<div class="online_form-row">
-						<input class="input-2" type="text" name="email" placeholder="E-mail">
-					</div> -->
+					</div>
+                    <input type="hidden" name="form_id" value="form14">
 					<div class="online_form-row">
 						<input class="online_form-btn" type="submit" value="ЗАПИСАТЬСЯ">
 					</div>
@@ -1181,10 +1155,8 @@
 					</div>	
 					<div class="footer_online-row">
 						<input class="input-1 js-phone" type="text" name="phone" placeholder="Телефон">
-					</div>	
-					<!--<div class="footer_online-row">
-						<input class="input-1" type="text" name="email" placeholder="E-mail">
-					</div> -->
+					</div>
+                    <input type="hidden" name="form_id" value="form15">
 					<input class="footer_online-btn" type="submit" value="ОТПРАВИТЬ">
 				</form>
 			</div>
@@ -1212,7 +1184,8 @@
 			</div>	
 			<div class="popup_online-row">
 				<input class="input-1" type="text" name="email" placeholder="E-mail">
-			</div>	
+			</div>
+            <input type="hidden" name="form_id" value="form13">
 			<input class="popup_online-btn" type="submit" value="записаться">
 		</form>
 	</div>
