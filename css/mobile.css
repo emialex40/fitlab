@@ -9,11 +9,23 @@ body {
 }
 
 .header {
-	background: #3399a5 url(../img/header.jpg) no-repeat center top;
+	background: #3399a5 url(../img/header.JPG) no-repeat 24% 100%;
 	background-size: cover;
 	height: 1048px;
 	position: relative;
 }
+
+	.background {
+		background: #3399a5;
+		width: 100%;
+		height: 1048px;
+		opacity: .7;
+		position: absolute;
+		top: 0;
+		left: 0;
+        z-index: 0;
+	}
+
 	.header-top {
 		position: relative;
 		border-bottom: 1px solid #6eb9c3;
@@ -28,7 +40,7 @@ body {
 			background: url(../img/header-logo_min.png) 0 0 no-repeat;
 			width: 205px;
 			height: 27px;
-			
+            z-index: 1;
 		}
 		.header-phone {
 			position: absolute;
@@ -39,7 +51,16 @@ body {
 			font-size: 26px;
 			color: rgb(255, 255, 255);
 			line-height: 26px;
-		}	
+			z-index: 1;
+		}
+		.header_online-address{
+			position: absolute;
+			font-size: 11px;
+			color: #ffffff;
+			left: 3%;
+			top: 75px;
+			width: 100%;
+		}
 		.header-phone a {
 			text-decoration: none;
 			color: rgb(255, 255, 255);
@@ -49,8 +70,9 @@ body {
 		padding: 0 80px;
 		height: 260px;
 		position: relative;
-		
+        z-index: 1;
 		background: url(../img/header-logo.png) 63px -28px no-repeat;
+		display: none;
 	}
 		.header-slogan{
 			position: absolute;
@@ -62,6 +84,7 @@ body {
 			line-height: 48px;
 			text-align: justify;
 			width: 457px;
+            z-index: 10;
 		}
 		
 
@@ -74,11 +97,19 @@ body {
 		border-bottom: 1px solid #6eb9c3;
 		padding: 32px 0;
 		margin: 0 80px;
+        z-index: 1;
+		position: absolute;
+		text-align: center;
+		top: 220px;
+		left: 7%;
+
 	}	
 	
 	.header_menu {
 		padding: 32px 80px;
 		margin: 0;
+		position: absolute;
+		top: 520px;
 	}
 	.header_menu li {
 		margin: 0;
@@ -100,20 +131,24 @@ body {
 	.header_online {
 		margin: 0 auto;
 		width: 442px;
-		height: 490px;
+		height: 380px;
 		background: #6cb7c1;
 		padding: 55px 59px 70px 60px;
 		box-shadow: 0px 4px 23px 1px #2d7895;
+		position: absolute;
+		left: 7%;
+		top: 776px;
 	}
 
 	.header_online-title {
-		font-size: 44px;
+		font-size: 34px;
 		color: rgb(255, 255, 255);
 		text-transform: uppercase;
 		line-height: 44px;
 		font-family: "Roboto black";
 		white-space: nowrap;
 		margin-bottom: 12px;
+		text-align: center;
 	}
 	.header_online-text {
 		font-size: 20px;
@@ -121,6 +156,7 @@ body {
 		line-height: 24px;
 		text-transform: uppercase;
 		margin-bottom: 20px;
+		text-align: center;
 	}
 	.header_online-row {
 		margin-bottom: 17px;
@@ -215,7 +251,14 @@ body {
 		color: rgb(45, 41, 38);
 		line-height: 24px;
 		margin-bottom: 20px;
-	}	
+		display: none;
+	}
+
+.free{
+	font-family: "Roboto bold";
+	color: #F32975;
+	font-size: 20px;
+}
 	
 .online {
 	height: 200px;
@@ -223,11 +266,11 @@ body {
 	padding: 39px 0px 0 38px;
 }
 	.online-title {
-		font-size: 20px;
+		font-size: 18px;
 		font-family: "Roboto light";
 		color: rgb(255, 255, 255);
 		text-transform: uppercase;
-		margin-bottom: 11px;
+		margin-bottom: 40px;
 		line-height: 36px;
 	}
 	.online-title i {
@@ -408,7 +451,7 @@ body {
 		line-height: 29px;
 		position: absolute;
 		left: 343px;
-		top: 60px;
+		top: 135px;
 		width: 200px;
 	}
 	.special_card-text_2 {
@@ -419,7 +462,7 @@ body {
 		line-height: 30px;
 		position: absolute;
 		left: 344px;
-		top: 207px;
+		top: 62px;
 		width: 195px;
 	}
 
@@ -733,7 +776,7 @@ body {
 		position: absolute;
 		top: 30px;
 		left: 340px;
-		width: 280px;
+		width: 250px;
 	}
 	.team_list-text {
 		font-size: 19px;
@@ -937,6 +980,20 @@ body {
 		background: url(../img/slider_2-active.png) 0 0 no-repeat;
 	}
 
+.prev{
+	position: absolute;
+	left: 30px;
+	top: 210px;
+	z-index: 1000;
+}
+
+.next{
+	position: absolute;
+	right: 30px;
+	top: 210px;
+	z-index: 1000;
+}
+
 .reviews {
 	padding: 38px 0 0 0;
 }
@@ -1101,7 +1158,7 @@ body {
 }
 	.footer_online {
 		width: 442px;
-		height: 490px;
+		height: 315px;
 		background: #6cb7c1;
 		padding: 55px 59px 70px 60px;
 		box-shadow: 0px 0px 6px 1px #2d7895;
@@ -1299,6 +1356,23 @@ body {
 		line-height: 1.6;
 	}
 
+	.popup_text-wrapper{
+		width: 430px;
+		height: 160px;
+		overflow-y: auto;
+	}
+
+	.popup_text-wrapper::-webkit-scrollbar{
+		width: 5px;
+		border-radius: 2px;
+	}
+
+	.popup_text-wrapper::-webkit-scrollbar-thumb{
+		width: 3px;
+		border-radius: 2px;
+		background: #ffffff;
+	}
+
 	.popup_form {
 		border-top: 1px solid #6eb9c3;
 		padding-top: 20px;
@@ -1340,6 +1414,67 @@ body {
 	}
 	.popup_form-btn:hover {
 		background: #f14d8a;
-	}	
+	}
+
+.politiс{
+	position: absolute;
+	display: block;
+	bottom: 2px;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #898788;
+	left:30%;
+	cursor: pointer;
+}
+
+.politiс:hover{
+	color: #545253;
+}
+
+.politic_parent_popup {
+	background: #000000;
+	height: 100%;
+	opacity: 0.8;
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.politic_popup{
+	width: 46%;
+	height:	550px;
+	position: fixed;
+	top: 8%;
+	left: 27%;
+	z-index: 2000;
+	display: none;
+	background: #ffffff;
+	overflow: scroll;
+}
+
+.politic_close{
+	position: absolute;
+	background: url(../img/close.png) no-repeat center center;
+	width: 44px;
+	height: 44px;
+	float: right;
+	display: inline-block;
+	cursor: pointer;
+	z-index: 3000;
+	top: 14px;
+	right: 360px;
+}
+
+.politic_popup-txt{
+	margin: 65px;
+}
+
+.politic_popup-txt h2{
+	text-transform: uppercase;
+	text-align: center;
+}
 	
 	

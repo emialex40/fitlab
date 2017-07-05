@@ -26,6 +26,7 @@
 	<!-- End Google Tag Manager (noscript) -->
 	
 	<header class="header">
+		<div class="background"></div>
 		<div class="wrp">
 			<div class="header-logo_min"></div>
 			<div class="header-logo"></div>
@@ -45,9 +46,13 @@
 			</ul>
 			
 			<div class="header_online">
-				<div class="header_online-phone"><a href="tel:+7(499)350-57-19">+7 (499) 350 57 19</a></div>
-				<div class="header_online-title">Узнайте условия<br>получения скидки</div>
-				<div class="header_online-text">бесплатная консультация тренера + клубная карта<br> в подарок!</div>
+				<div class="header_online-phone"><a href="tel:+7(499)350-57-19">+7 (499) 350 57 19</a>
+					<p class="header_online-address">б-р Маршала Рокоссовского, дом 6, корпус 1,
+						подъезд 7, этаж 3 пн-пт: с 07:00 до 00:00
+						сб-вс: с 08:00 до 22:00</p>
+				</div>
+				<div class="header_online-title">Узнайте условия<br>получения 30% скидки</div>
+				<div class="header_online-text">Бонус: клубная карта + 1-ая <br>тренировка – бесплатно!</div>
 				<form class="js-form">
 					<div class="header_online-row">
 						<input class="input-1" type="text" name="name" placeholder="Имя">
@@ -56,7 +61,7 @@
 						<input class="input-1 js-phone" type="text" name="phone" placeholder="Телефон">
 					</div>
 						<input type="hidden" name="form_id" value="form1">
-					<input class="header_online-btn" type="submit" value="ПОзвоните мне">
+					<input class="header_online-btn" type="submit" value="получить скидку">
 				</form>
 			</div>
 		</div>
@@ -103,7 +108,7 @@
 
 	<div class="online">
 		<div class="wrp">	
-			<div class="online-title"><i>ПЕРВАЯ ТРЕНИРОВКА С ТРЕНЕРОМ  БЕСПЛАТНО:</i> КОНСУЛЬТАЦИЯ + FITLAB ТЕСТИРОВАНИЕ!</div>
+			<div class="online-title"><strong>ПЕРВАЯ ТРЕНИРОВКА С ТРЕНЕРОМ  <strong class="free">БЕСПЛАТНО:</strong></strong> КОНСУЛЬТАЦИЯ + FITLAB ТЕСТИРОВАНИЕ!</div>
 			<form class="js-form">
 				<div class="online_form clearfix">
 					<div class="online_form-row">
@@ -127,7 +132,7 @@
 			<div class="species_box">
 				<div class="species_list clearfix">
 					<div class="species_list-item">
-						<img src="files/species_1.png" alt="">
+						<img src="files/foto3(2).JPG" alt="foto3">
 						<div class="species_list-info">
 							<div class="species_list-name"><span class="child">Персональные тренировки в <i>тренажерном зале</i></span><span class="helper"></span></div>
 							<a class="species_list-btn fancydiv" href="#text-1">Подробнее</a>
@@ -136,7 +141,7 @@
 						<div id="text-1" class="popup hide-content">
 							<a class="popup-close" href="#" onclick="$.fancybox.close(); return false;"></a>
                             <div class="popup_img">
-                                <img src="files/foto3(2).jpg" alt="foto3">
+                                <img src="files/foto3(2).JPG" alt="foto3">
                             </div>
 							<div class="popup-title">Персональные тренировки в тренажерном зале</div>
 							<div class="popup-text">
@@ -162,7 +167,7 @@
 						</div>
 					</div>
 					<div class="species_list-item">
-						<img src="files/species_2.png" alt="">
+						<img src="files/foto1(personal).jpg" alt="foto1">
 						<div class="species_list-info">
 							<div class="species_list-name"><span class="child">Персональные тренировки <i>пилатес в профессиональной студии</i></span><span class="helper"></span></div>						
 							<a class="species_list-btn fancydiv" href="#text-2">Подробнее</a>
@@ -171,7 +176,7 @@
 						<div id="text-2" class="popup hide-content">
 							<a class="popup-close" href="#" onclick="$.fancybox.close(); return false;"></a>
                             <div class="popup_img">
-                                <img src="files/foto1(personal).jpg" alt="foto1">
+                                <img src="files/for_form/pers-tren-popup.min.jpg" alt="foto1">
                             </div>
                             <div class="popup-title"><!--Персональные тренировки: -->пилатес в профессиональной студии и на тренажерах</div>
 							<div class="popup-text">
@@ -200,7 +205,7 @@
 						</div>
 					</div>
 					<div class="species_list-item">
-						<img src="files/species_4.png" alt="">
+						<img src="files/species_4.png" alt="species_4">
 						<div class="species_list-info">
 							<div class="species_list-name"><span class="child">Персональные тренировки <i>Функциональный тренинг</i></span><span class="helper"></span></div>
 							<a class="species_list-btn fancydiv" href="#text-4">Подробнее</a>
@@ -209,7 +214,7 @@
 						<div id="text-4" class="popup hide-content">
 							<a class="popup-close" href="#" onclick="$.fancybox.close(); return false;"></a>
                             <div class="popup_img">
-                                <img src="files/species_4.png" alt="species_4">
+                                <img src="files/for_form/fun-tr-pop.jpg" alt="species_4">
                             </div>
 							<div class="popup-title">Персональные тренировки: функциональный тренинг</div>
 							<div class="popup-text">
@@ -235,7 +240,7 @@
 						</div>
 					</div>
 					<div class="species_list-item">
-						<img src="files/species_3.png" alt="">
+						<img src="files/foto2.(personal).jpg" alt="foto2">
 						<div class="species_list-info">
 							<div class="species_list-name"><span class="child">Тренировки с персональным тренером <i>в малых группах</i></span><span class="helper"></span></div>
 							<a class="species_list-btn fancydiv" href="#text-3">Подробнее</a>
@@ -243,7 +248,7 @@
 						<div id="text-3" class="popup hide-content">
 							<a class="popup-close" href="#" onclick="$.fancybox.close(); return false;"></a>
                             <div class="popup_img">
-                                <img src="files/foto2.(personal).jpg" alt="foto2">
+                                <img src="files/for_form/t_sm_group.jpg" alt="foto2">
                             </div>
                             <div class="popup-title">Тренировки с персональным тренером в малых группах</div>
 							<div class="popup-text">
@@ -278,7 +283,7 @@
 		<div class="wrp">		
 			<div class="special_card">
                 <div class="special_card-text_2">30% скидка </div>
-				<div class="special_card-text_1">на покупку первого блока</div>
+				<div class="special_card-text_1">на покупку первого блока персональных тренировок</div>
 
 			</div>	
 
@@ -294,7 +299,7 @@
 
 	<div class="online">
 		<div class="wrp">	
-			<div class="online-title online_title-min"><i>УЗНАТЬ СТОИМОСТЬ ПЕРСОНАЛЬНЫХ ТРЕНИРОВОК СО СКИДКОЙ!</i> <!--консультация тренера + клубная карта в подарок! --></div>
+			<div class="online-title online_title-min"><strong>УЗНАТЬ СТОИМОСТЬ ПЕРСОНАЛЬНЫХ ТРЕНИРОВОК <strong class="free">СО СКИДКОЙ!</strong></strong> <!--консультация тренера + клубная карта в подарок! --></div>
 			<form class="js-form">
 				<div class="online_form clearfix">
 					<div class="online_form-row">
@@ -333,6 +338,12 @@
 							<div id="text-5" class="popup hide-content">
 								<a class="popup-close" href="#" onclick="$.fancybox.close(); return false;"></a>
 								<div class="popup-slider">
+
+									<div class="popup-obj">
+										<a class="fancybox" rel="photo" href="files/for_form/cl-fit-card-big.jpg">
+											<img src="files/for_form/cl-fit-cardio.jpg" alt="1">
+										</a>
+									</div>
 
                                     <div class="popup-obj">
                                         <a class="fancybox" rel="photo" href="files/for_form/classic_fit_cardio1.jpg">
@@ -461,13 +472,19 @@
 						</div>
 					</div>
 					<div class="classic_list-item">
-						<img src="files/classic_4.png" alt="">
+						<img src="files/for_form/pil.png" alt="">
 						<div class="classic_list-info">
 							<div class="classic_list-name"><span class="child">СТУДИЯ ПИЛАТЕС</span><span class="helper"></span></div>
 							<a class="classic_list-btn fancydiv" href="#text-7">подробнее</a>
 							<div id="text-7" class="popup hide-content">
 								<a class="popup-close" href="#" onclick="$.fancybox.close(); return false;"></a>
                                 <div class="popup-slider">
+
+									<div class="popup-obj">
+										<a class="fancybox" rel="photo" href="files/for_form/classic-pil-big.jpg">
+											<img src="files/for_form/classic-pil.jpg" alt="1">
+										</a>
+									</div>
 
                                     <div class="popup-obj">
                                         <a class="fancybox" rel="photo" href="files/for_form/classic_fit_pil1.jpg">
@@ -656,7 +673,7 @@
 
 	<div class="online">
 		<div class="wrp">	
-			<div class="online-title online_title-min"><i>ЗАПИСАТЬСЯ НА БЕСПЛАТНОЕ FITLAB ТЕСТИРОВАНИЕ!</i> <!-- консультация тренера + клубная карта в подарок! --></div>
+			<div class="online-title online_title-min"><strong>ЗАПИСАТЬСЯ НА <strong class="free">БЕСПЛАТНОЕ</strong> FITLAB ТЕСТИРОВАНИЕ!</strong> <!-- консультация тренера + клубная карта в подарок! --></div>
 			<form class="js-form">
 				<div class="online_form clearfix">
 					<div class="online_form-row">
@@ -810,50 +827,55 @@
 
             <div class="photo_slider">
                 <div class="photo_item">
-                    <a class="fancybox" rel="photo" href="files/gallery/1.JPG">
-                        <img src="files/gallery/min/1.min.jpg" alt="1">
+                    <a class="fancybox" rel="photo" href="files/gallery/g1.JPG">
+                        <img src="files/gallery/g1.min.jpg" alt="1">
                     </a>
                 </div>
                 <div class="photo_item">
-                    <a class="fancybox" rel="photo" href="files/gallery/2.JPG">
-                        <img src="files/gallery/min/2.min.jpg" alt="1">
+                    <a class="fancybox" rel="photo" href="files/gallery/g2.JPG">
+                        <img src="files/gallery/g2.min.jpg" alt="1">
                     </a>
                 </div>
                 <div class="photo_item">
-                    <a class="fancybox" rel="photo" href="files/gallery/3.JPG">
-                        <img src="files/gallery/min/3.min.jpg" alt="1">
+                    <a class="fancybox" rel="photo" href="files/gallery/g3.JPG">
+                        <img src="files/gallery/g3.min.jpg" alt="1">
                     </a>
                 </div>
                 <div class="photo_item">
                     <a class="fancybox" rel="photo" href="files/gallery/4.JPG">
-                        <img src="files/gallery/min/4.min.jpg" alt="1">
+                        <img src="files/gallery/g4.min.jpg" alt="1">
                     </a>
                 </div>
                 <div class="photo_item">
-                    <a class="fancybox" rel="photo" href="files/gallery/5.JPG">
-                        <img src="files/gallery/min/5.min.jpg" alt="1">
+                    <a class="fancybox" rel="photo" href="files/gallery/g5.JPG">
+                        <img src="files/gallery/g5.min.jpg" alt="1">
                     </a>
                 </div>
                 <div class="photo_item">
-                    <a class="fancybox" rel="photo" href="files/gallery/6.JPG">
-                        <img src="files/gallery/min/6.min.jpg" alt="1">
+                    <a class="fancybox" rel="photo" href="files/gallery/g6.jpg">
+                        <img src="files/gallery/g6.min.jpg" alt="1">
                     </a>
                 </div>
                 <div class="photo_item">
-                    <a class="fancybox" rel="photo" href="files/gallery/7.jpg">
-                        <img src="files/gallery/min/7.min.jpg" alt="1">
+                    <a class="fancybox" rel="photo" href="files/gallery/g7.jpg">
+                        <img src="files/gallery/g7.min.jpg" alt="1">
                     </a>
                 </div>
                 <div class="photo_item">
-                    <a class="fancybox" rel="photo" href="files/gallery/8.jpg">
-                        <img src="files/gallery/min/8.min.jpg" alt="1">
+                    <a class="fancybox" rel="photo" href="files/gallery/g8.JPG">
+                        <img src="files/gallery/g8.min.jpg" alt="1">
                     </a>
                 </div>
                 <div class="photo_item">
-                    <a class="fancybox" rel="photo" href="files/gallery/9.JPG">
-                        <img src="files/gallery/min/9.min.jpg" alt="1">
+                    <a class="fancybox" rel="photo" href="files/gallery/g9.JPG">
+                        <img src="files/gallery/g9.min.jpg" alt="1">
                     </a>
                 </div>
+				<div class="photo_item">
+					<a class="fancybox" rel="photo" href="files/gallery/g10.JPG">
+						<img src="files/gallery/g10.min.jpg" alt="1">
+					</a>
+				</div>
             </div>
 
 			<!--<ul class="photo_list">
@@ -963,7 +985,7 @@
 
 	<div class="online">
 		<div class="wrp">	
-			<div class="online-title online_title-min"><i>ПРИХОДИТЕ К НАМ В ГОСТИ: </i>ЗАПИСАТЬСЯ НА ПРОСМОТР КЛУБА</div>
+			<div class="online-title online_title-min"><strong>ПРИХОДИТЕ К НАМ В ГОСТИ: </strong>ЗАПИСАТЬСЯ НА ПРОСМОТР КЛУБА</div>
 			<form class="js-form">
 				<div class="online_form clearfix">
 					<div class="online_form-row">
@@ -1008,21 +1030,24 @@
 								</tr>
 							</table>
 							<div class="reviews_list-text" style="font-size: 15px; line-height: 18px;">
-								Основной моей задачей было снижение веса, а основная претензия к себе – невозможность похудеть, скорее даже, неумение и непонимание влияния продуктов питания на организм. 
+
 								В Fitlab я пришла к тренеру Максиму в феврале 2016 г. 
 								Мой первоначальный вес был 68 кг., при росте 168. Цель 55 кг.
-								Первая тренировка началась с тестирования (объемы, вес) наверное, самое неприятное за весь период моих тренировок. 
-								Тренером была подготовлена программа питания и схема тренировок. После месяца соблюдения рекомендаций  
-								я уже была довольна динамике показателей. Ежедневные отчеты, приготовление еды, наблюдение за весом, 
-								подсчет калорий - спустя 3 месяца я поняла, что такой режим вошел в мою жизнь и мне не составляет труда 
-								соблюдать все наставления тренера, несмотря  на активную жизнь и загруженность в работе. 
+								Первая тренировка началась с тестирования (объемы, вес) наверное, самое неприятное за
+								весь период моих тренировок.
+								Тренером была подготовлена программа питания и схема тренировок. После месяца
+								соблюдения рекомендаций
+								я уже была довольна динамике показателей. Ежедневные отчеты, приготовление еды,
+								наблюдение за весом,
+								подсчет калорий - спустя 3 месяца я поняла, что такой режим вошел в мою жизнь и мне
+								не составляет труда
+								соблюдать все наставления тренера.
 								С учетом полного контролинга со стороны тренера на реакцию/динамику/самочувствие моего 
-								организма за весь период было: смена питания, проведение детокс, изменение комплекса тренировок. 
-								Мне было очень комфортно, так как на любой вопрос я оперативно получала ответ и разъяснение от тренера.
-								К маю 2016 г. мой вес достиг 57 кг., а в июле 53. (питание + 2 тренировки в неделю)
-								Таким образом, за весь период, в общей сложности минус 16 кг. Это ли не показатель в подтверждение компетентности тренера и моих усилий?)
+								организма за весь период было: смена питания, проведение детокс, изменение комплекса
+								тренировок.
+								К маю 2016 г. мой вес достиг 57 кг., а в июле 53.
 								Спасибо Fitlab за сотрудничество, а Максиму за профессионализм, терпение и понимание.
-								<a href="https://www.instagram.com/marinna_volkova/" target="_blank">Мой Instagram</a>
+								<a href="https://www.instagram.com/marinna_volkova/" target="_blank">Марина Волкова</a>
 							</div>
 						</div>
 					</div>
@@ -1051,16 +1076,18 @@
 								</tr>
 							</table>
 							<div class="reviews_list-text">
-								Я пришла в Fitlab по рекомендации подруги к персональному тренеру Максиму с проблемой общей для большинства мамочек: 
-								набор веса в период ухода за родившимся ребенком и тюлений образ жизни в течении 8 лет. 
-								В моем случае лишних 30 кг, сильная одышка при малых нагрузках, кроме того была травма плеча, 
-								которая не поддавалась лечению врачей около года.  Максим составил программу тренировок, 
-								режим питания, правильное меню, подходяще мне лично, следит за динамикой, вносит необходимые корректировки. 
-								Тренер профессионал, коммуникабельный, харизматичный, требовательный сумел настроить меня на активный образ жизни. 
-								Занимаюсь 3 раза в неделю. Результат не только визуальный: -8 кг за неполных 2 месяца, одышка пропала, про боль в 
-								плече я вообще забыла, а главное появилась уверенность, что смогу вернуть прежнюю форму.  
+								Я пришла в Fitlab по рекомендации подруги к персональному тренеру Максиму с
+								проблемой общей для большинства мамочек: набор веса в период ухода за родившимся
+								ребенком. В моем случае лишних 30 кг, сильная одышка при малых нагрузках, кроме
+								того была травма плеча, которая не поддавалась лечению врачей около года.  Максим
+								составил программу тренировок, режим питания, правильное меню, подходяще мне лично.
+								Тренер профессионал,
+								коммуникабельный, харизматичный, требовательный сумел настроить меня на активный образ
+								жизни. Занимаюсь 3 раза в неделю. Результат не только визуальный: -8 кг за неполных
+								2 месяца, одышка пропала, про боль вплече я вообще забыла, а главное появилась
+								уверенность, что смогу вернуть прежнюю форму.
 								Спасибо Максиму за проделанную работу, все благодарности еще впереди!
-								<a href="https://www.instagram.com/_marina_romanova__/"  target="_blank">Мой Instagram</a>
+								<a href="https://www.instagram.com/_marina_romanova__/"  target="_blank">Марина Романова</a>
 							.</div>
 						</div>
 					</div>
@@ -1090,7 +1117,7 @@
 							</table>
 							<div class="reviews_list-text">В сентябре я пришла в студию FITLAB чтобы избавиться от лишних килограммов. Мой вес на тот момент был 137 кг. За три месяца занятий я похудела на 19 кг, и это без изнурительных диет. Хочу выразить благодарность тренеру Максиму, который консультировал меня, составил комплекс упражнений и дал рекомендации по правильному питанию. Но это только начало. Хотелось бы отметить весь персонал FITLAB - всегда вежливое и доброжелательное отношение, готовность помочь советом. Я не жалею, что пришла именно сюда, чтобы решить свои проблемы. 
 							<br>
-							<a href="https://www.facebook.com/profile.php?id=100009348924109" target="_blank">Я в фейсбуке</a>
+							<a href="https://www.facebook.com/profile.php?id=100009348924109" target="_blank">Татьяна</a>
 							</div>
 						</div>
 					</div>
@@ -1120,7 +1147,7 @@
 							</table>
 							<div class="reviews_list-text">Безгранично благодарна тренеру Алексею Федорову за профессионализм и знание своего дела на отлично!!! За индивидуальный и комплексный подход к решению проблемы!! За то, что работаете на результат!!! Реально помогаете и возвращаете к полноценной жизни!!!!!!!
 							<br>
-							<a href="https://vk.com/id156416100 " target="_blank">Мой профиль Вконтакте</a>
+							<a href="https://vk.com/id156416100 " target="_blank">Вера</a>
 							</div>
 						</div>
 					</div>
@@ -1168,7 +1195,7 @@
 			<div class="footer_logo">
 				<span class="footer_logo-img"></span> 
 			</div>
-            <div class="politiс">Политика конфидециальности</div>
+            <div class="politiс">Политика конфиденциальности</div>
 
             <div class="politic_parent_popup">
                 <div class="politic_close"></div>
@@ -1263,7 +1290,7 @@
 	<!-- <script src="js/jquery.bxslider/jquery.bxslider.min.js"></script>-->
 	<script src="js/jquery.bxslider/jquery.bxslider.min.js"></script>
 	<script src="js/fancybox/jquery.fancybox.pack.js"></script>
-    <script src="../js/slick-1.6.0/slick/slick.min.js"></script>
+    <script src="js/slick-1.6.0/slick/slick.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="js/slick-1.6.0/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="js/slick-1.6.0/slick/slick-theme.css"/>

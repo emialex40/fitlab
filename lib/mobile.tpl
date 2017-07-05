@@ -26,23 +26,31 @@
 	<!-- End Google Tag Manager (noscript) -->
 	
 	<div class="wrp">
+
 		<header class="header">
+			<div class="background"></div>
 			<div class="header-top">
 				<div class="header-logo_min"></div>
-				<div class="header-phone"><a href="tel:+7(499)350-57-19">+7 (499) 350 57 19</a></div>
+				<div class="header-phone">
+					<a href="tel:+7(499)350-57-19">+7 (499) 350 57 19</a>
+				</div>
+				<p class="header_online-address">б-р Маршала Рокоссовского, дом 6, корпус 1,
+					подъезд 7, этаж 3 пн-пт: с 07:00 до 00:00
+					сб-вс: с 08:00 до 22:00</p>
 			</div>		
 			<div class="header-logo">
 				<div class="header-slogan">ваша персональная фитнес-лаборатория</div>	
 			</div>
-			<div class="header-text">Доступный и комфортный фитнес<br>для жителей мегаполиса</div>
+			<div class="header-text">ПРАВИЛЬНЫЙ ФИТНЕС <br/>В УСЛОВИЯХ БОЛЬШОГО ГОРОДА!</div>
 			<ul class="header_menu">
 				<li><a class="tlink" href="#personal">Персональные тренировки</a></li>
 				<li><a class="tlink" href="#classic">Тренажерный зал</a></li>
 				<li><a class="tlink" href="#classic">Занятия в мини-группах</a></li>
 			</ul>
 			<div class="header_online">
-				<div class="header_online-title">Запишись<br>на персональную<br>тренировку:</div>
-				<div class="header_online-text">консультация тренера +<br>клубная карта в подарок!</div>
+				<div class="header_online-title">УЗНАЙТЕ УСЛОВИЯ<br>
+					ПОЛУЧЕНИЯ 30% СКИДКИ</div>
+				<div class="header_online-text">Бонус: клубная карта + 1-ая <br>тренировка – бесплатно!</div>
 				<form class="js-form">
 					<div class="header_online-row">
 						<input class="input-1" type="text" name="name" placeholder="Имя">
@@ -50,13 +58,16 @@
 					<div class="header_online-row">
 						<input class="input-1 js-phone" type="text" name="phone" placeholder="Телефон">
 					</div>	
-					<div class="header_online-row">
+					<!--<div class="header_online-row">
 						<input class="input-1" type="text" name="email" placeholder="E-mail">
-					</div>	
-					<input class="header_online-btn" type="submit" value="записаться">
+					</div>-->
+					<input type="hidden" name="form_id" value="form1">
+					<input class="header_online-btn" type="submit" value="получить скидку">
 				</form>
 			</div>
+
 		</header>
+
 
 		<div class="personal">
 			<div class="personal-text" id="personal">
@@ -98,9 +109,10 @@
 		</div>	
 		
 		<div class="online">
-			<div class="online-title"><i>Запишись на персональную тренировку:</i> консультация тренера + клубная карта в подарок!</div>
+			<div class="online-title"><strong>ПЕРВАЯ ТРЕНИРОВКА С ТРЕНЕРОМ  <strong class="free">БЕСПЛАТНО:</strong></strong></div>
 			<div class="online_form-row">
 				<a class="online_form-btn fancyonline" href="#online">Записаться</a>
+				<input type="hidden" name="form_id" value="form6">
 			</div>			
 		</div>	
 
@@ -122,7 +134,7 @@
 									их выполнения, составит индивидуальную программу занятий и план питания.</p> 
 								</div>
 								<div class="popup_form">
-									<div class="popup_form-title">Записаться на бесплатную<br>консультацию персонального<br>тренера</div>
+									<div class="popup_form-title">Узнать больше о персональных<br> тренировках в тренажёрном<br> зале.</div>
 									<form class="js-form">
 										<div class="popup_form-row">
 											<input class="input-1" type="text" name="name" placeholder="Имя">
@@ -130,9 +142,10 @@
 										<div class="popup_form-row">
 											<input class="input-1 js-phone" type="text" name="phone" placeholder="Телефон">
 										</div>	
-										<div class="popup_form-row">
+										<!--<div class="popup_form-row">
 											<input class="input-1" type="text" name="email" placeholder="E-mail">
-										</div>	
+										</div>-->
+                                        <input type="hidden" name="form_id" value="form3">
 										<input class="popup_form-btn" type="submit" value="записаться">
 									</form>
 								</div>
@@ -146,7 +159,7 @@
 							<a class="species_list-btn fancydiv2" href="#text-2">Подробнее</a>
 							<div id="text-2" class="popup hide-content">
 								<a class="popup-close" href="#" onclick="$.fancybox.close(); return false;"></a>
-								<div class="popup-title">Персональные тренировки: пилатес в профессиональной студии и на тренажерах</div>
+								<div class="popup-title">пилатес в профессиональной студии и на тренажерах</div>
 								<div class="popup-text">
 									<p>Пилатес - самые мягкие тренировки, подходящие в том числе для пожилых и беременных. 
 								Они способствуют улучшению осанки, повышению подвижности суставов и укреплению всех групп мышц. 
@@ -156,7 +169,7 @@
 								кадиллак, реформер, бочка, стул, корректоры спины и другие.<p> 
 								</div>
 								<div class="popup_form">
-									<div class="popup_form-title">Записаться на бесплатную<br>консультацию тренера<br>по пилатесу</div>
+									<div class="popup_form-title">Узнать больше о персональных<br/> тренировках на тренажёрах<br/> пилатес</div>
 									<form class="js-form">
 										<div class="popup_form-row">
 											<input class="input-1" type="text" name="name" placeholder="Имя">
@@ -164,9 +177,10 @@
 										<div class="popup_form-row">
 											<input class="input-1 js-phone" type="text" name="phone" placeholder="Телефон">
 										</div>	
-										<div class="popup_form-row">
+										<!--<div class="popup_form-row">
 											<input class="input-1" type="text" name="email" placeholder="E-mail">
-										</div>	
+										</div>-->
+										<input type="hidden" name="form_id" value="form4">
 										<input class="popup_form-btn" type="submit" value="записаться">
 									</form>
 								</div>
@@ -182,12 +196,12 @@
 								<a class="popup-close" href="#" onclick="$.fancybox.close(); return false;"></a>
 								<div class="popup-title">Персональные тренировки: функциональный тренинг</div>
 								<div class="popup-text">
-									<p>В отличие от обычных силовых упражнений, на функциональных тренировках прорабатывается сразу все тело. 
-									Основная нагрузка при таких тренировках - ваш собственный вес. Под руководством персонального тренера 
-									вы будете выполнять упражнения на уникальной станции Synrgy360, с петлями TRX и другим новейшим оборудованием.</p> 
+									<p>Самый быстрый способ привести себя в форму!<br/> В отличие от обычных силовых упражнений, на функциональных тренировках прорабатывается сразу все тело.
+                                        Основная нагрузка при таких тренировках - ваш собственный вес. Под руководством персонального тренера
+                                        вы будете выполнять упражнения на уникальной станции Synrgy360, с петлями TRX и другим новейшим оборудованием</p>
 								</div>
 								<div class="popup_form">
-									<div class="popup_form-title">Записаться на бесплатную<br>консультацию персонального<br>тренера</div>
+									<div class="popup_form-title">Узнать больше о персональных<br/> тренировках по функциональному<br/> тренингу.</div>
 									<form class="js-form">
 										<div class="popup_form-row">
 											<input class="input-1" type="text" name="name" placeholder="Имя">
@@ -195,9 +209,10 @@
 										<div class="popup_form-row">
 											<input class="input-1 js-phone" type="text" name="phone" placeholder="Телефон">
 										</div>	
-										<div class="popup_form-row">
+										<!--<div class="popup_form-row">
 											<input class="input-1" type="text" name="email" placeholder="E-mail">
-										</div>	
+										</div> -->
+										<input type="hidden" name="form_id" value="form5">
 										<input class="popup_form-btn" type="submit" value="записаться">
 									</form>
 								</div>
@@ -219,7 +234,7 @@
 									вы сможете добиться того же эффекта, что и при персональных тренировках, но по более низкой цене.</p> 
 								</div>
 								<div class="popup_form">
-									<div class="popup_form-title">Записаться на пробную<br>тренировку в малой группе</div>
+									<div class="popup_form-title">Узнать больше о персональных<br/> тренировках по функциональному<br/> тренингу.</div>
 									<form class="js-form">
 										<div class="popup_form-row">
 											<input class="input-1" type="text" name="name" placeholder="Имя">
@@ -227,9 +242,10 @@
 										<div class="popup_form-row">
 											<input class="input-1 js-phone" type="text" name="phone" placeholder="Телефон">
 										</div>	
-										<div class="popup_form-row">
+										<!--<div class="popup_form-row">
 											<input class="input-1" type="text" name="email" placeholder="E-mail">
-										</div>	
+										</div>	-->
+										<input type="hidden" name="form_id" value="form5">
 										<input class="popup_form-btn" type="submit" value="записаться">
 									</form>
 								</div>
@@ -242,8 +258,8 @@
 
 		<div class="special">	
 			<div class="special_card">
-				<div class="special_card-text_1">А при покупке пакета персональных тренировок</div>
-				<div class="special_card-text_2">вы получите годовую клубную карту Fitlab в подарок!</div>
+				<div class="special_card-text_1">на покупку первого блока персональных тренировок</div>
+				<div class="special_card-text_2">30% скидка</div>
 			</div>				
 			<div class="special_text">
 				<h2 class="special_text-title">Специальное предложение</h2>
@@ -255,9 +271,10 @@
 		</div>	
 		
 		<div class="online">
-			<div class="online-title"><i>Запишись на персональную тренировку:</i> консультация тренера + клубная карта в подарок!</div>
+			<div class="online-title"><strong>УЗНАТЬ СТОИМОСТЬ ПЕРСОНАЛЬНЫХ ТРЕНИРОВОК <strong class="free">СО СКИДКОЙ!</strong></strong></div>
 			<div class="online_form-row">
 				<a class="online_form-btn fancyonline" href="#online">Записаться</a>
+				<input type="hidden" name="form_id" value="form6">
 			</div>			
 		</div>	
 
@@ -277,12 +294,22 @@
 							<div id="text-5" class="popup hide-content">
 								<a class="popup-close" href="#" onclick="$.fancybox.close(); return false;"></a>
 								<div class="popup-title">Кардиозона</div>
-								<div class="popup-text">
-									<p>В кардиозоне установлены беговые дорожки для любителей бега и спортивной ходьбы, эллиптические 
-									кросс-тренажеры, вертикальные и горизонтальные (с поддержкой спины) велотренажеры серии Integrity 
-									от производителя LIfe Fitness - официального поставщика Олимпийских Игр. Все тренажеры имеют множество 
-									встроенных программ и контролер пульса для регулирования нагрузок.</p> 
-								</div>
+                                <div class="popup_text-wrapper">
+                                    <div class="popup-text">
+                                        <p>Какой бы вид треннинга вы не выбрали – с личным тренером, в группах,
+                                            самостоятельные тренировки, заминка и разминка всегда необходимы. </p>
+                                        <p>Кардиозона должна быть просторной, вместительной, светлой, как  у нас.
+                                            Большие окна дают много дневного света. </p>
+                                        <p>Все оборудование, как в кардио зоне, так и во всем тренажёрном зале
+                                            предоставлено компанией Life Fitness.  Компания хорошо известна, в свое
+                                            время именно она обеспечивала тренажерами Олимпиаду в Сочи.
+                                            Наше оборудование отличается тем, что и новичок, и опытный член клуба
+                                            легко разберется в настройках, а риск травмы сведен к минимуму. </p>
+                                        <p>В тренажёрном зале всегда есть дежурный тренер, который поможет разобраться
+                                            в настройках. </p>
+                                        <p>В кардиозоне есть вода и полотенца – все для вашего удобства.</p>
+                                    </div>
+                                </div>
 								<div class="popup_form">
 									<div class="popup_form-title">Записаться на пробную<br>тренировку в тренажёрном зале</div>
 									<form class="js-form">
@@ -292,9 +319,10 @@
 										<div class="popup_form-row">
 											<input class="input-1 js-phone" type="text" name="phone" placeholder="Телефон">
 										</div>	
-										<div class="popup_form-row">
+										<!--<div class="popup_form-row">
 											<input class="input-1" type="text" name="email" placeholder="E-mail">
-										</div>	
+										</div>-->
+										<input type="hidden" name="form_id" value="form8">
 										<input class="popup_form-btn" type="submit" value="записаться">
 									</form>
 								</div>
@@ -309,14 +337,31 @@
 							<div id="text-6" class="popup hide-content">
 								<a class="popup-close" href="#" onclick="$.fancybox.close(); return false;"></a>
 								<div class="popup-title">Тренажерный зал</div>
+                                <div class="popup_text-wrapper">
 								<div class="popup-text">
-									<p>Основной целью функционального тренинга является быстрое приведение тела в форму: 
-									снижение веса плюс поднятие общего тонуса мышц. Специализированная рама для кроссфита, 
-									подвесная система TRX, тренинговая станция Synrgy360 и другое оборудование поможет вам 
-									разнообразить тренировки и кратно усилить их эффект.</p> 
+                                    <p>В вашем распоряжении тренажеры на все группы мышц, широкий ряд гантелей
+                                        и штанг. Скамьи для жима, рамы для работы со штангой  - в нашем зале есть
+                                        все необходимое оборудование для опытных любителей фитнеса и
+                                        профессиональных спортсменов.
+                                        Мы продумали расстановку тренажеров для максимально эффективных  и
+                                        комфортных тренировок.
+                                    </p>
+                                    <p>Обратите своё внимание на тренажеры, все абсолютно новое, современное,
+                                        удобное в использовании.  Все оборудование в  тренажёрном зале
+                                        предоставлено компанией Life Fitness.
+                                        Компания хорошо известна, в свое время именно она обеспечивала тренажерами
+                                        Олимпиаду в Сочи.</p>
+                                    <p>Не знакомы с какими-то тренажерами? Дежурный тренер вас всему научит,
+                                        не волнуйтесь!</p>
+                                    <p>Отдельная зона для функциональных тренировок и кросфита.  Оборудована
+                                        всем необходимым, а также уникальной станцией Synrgy360.</p>
+                                    <p>В тренажёрном зале выделена специальная  зона растяжки и тренировки пресса.
+                                        Здесь вы можете потренироваться , растянуться или просто передохнуть,
+                                        и Вам никто не помешает.</p>
 								</div>
+                                </div>
 								<div class="popup_form">
-									<div class="popup_form-title">Записаться<br> на пробнуютренировку</div>
+									<div class="popup_form-title">Записаться на пробную тренировку<br> в тренажёрном зале</div>
 									<form class="js-form">
 										<div class="popup_form-row">
 											<input class="input-1" type="text" name="name" placeholder="Имя">
@@ -324,9 +369,10 @@
 										<div class="popup_form-row">
 											<input class="input-1 js-phone" type="text" name="phone" placeholder="Телефон">
 										</div>	
-										<div class="popup_form-row">
+										<!--<div class="popup_form-row">
 											<input class="input-1" type="text" name="email" placeholder="E-mail">
-										</div>	
+										</div>	-->
+										<input type="hidden" name="form_id" value="form9">
 										<input class="popup_form-btn" type="submit" value="записаться">
 									</form>
 								</div>
@@ -336,17 +382,31 @@
 					<div class="classic_list-item">
 						<img src="files/classic_4.png" alt="">
 						<div class="classic_list-info">
-							<div class="classic_list-name"><span class="child">Зона<br>функционального<br>тренинга и кроссфит</span><span class="helper"></span></div>
+							<div class="classic_list-name"><span class="child">СТУДИЯ ПИЛАТЕС</span><span class="helper"></span></div>
 							<a class="classic_list-btn fancydiv2" href="#text-7">подробнее</a>
 							<div id="text-7" class="popup hide-content">
 								<a class="popup-close" href="#" onclick="$.fancybox.close(); return false;"></a>
-								<div class="popup-title">Зона функционального тренинга</div>
+								<div class="popup-title">СТУДИЯ ПИЛАТЕС</div>
+                                <div class="popup_text-wrapper">
 								<div class="popup-text">
-									<p>Основной целью функционального тренинга является быстрое приведение тела в форму: 
-									снижение веса плюс поднятие общего тонуса мышц. Специализированная рама для кроссфита, 
-									подвесная система TRX, тренинговая станция Synrgy360 и другое оборудование поможет вам 
-									разнообразить тренировки и кратно усилить их эффект.<p> 
+                                    <p>Студия Пилатеса  - наша гордость! Далеко не каждый клуб может похвастаться
+                                        такими тренажерами, это дорогостоящее оборудование, на котором могут
+                                        работать и преподавать лишь высококлассные специалисты. </p>
+                                    <p>Студию открывал лично Майкл Кинг! И она сертифицированна его международной
+                                        школой. </p>
+                                    <p>На базе нашего клуба отрыт обучающий центр,  и мы учим других преподавать
+                                        пилатес.</p>
+                                    <p>Даём  мастер классы и обучающие тренинги, проводим ежегодные конференции
+                                        по пилатесу в Москве, Санкт-Петербурге, Краснодаре.</p>
+                                    <p>Пилатес - самые мягкие тренировки, которые подходят для людей любого
+                                        возраста и уровня подготовки. Они способствуют улучшению осанки, повышению
+                                        подвижности суставов и укреплению всех групп мышц.</p>
+                                    <p>Занятия пилатесом в студии проходят в минигруппах до 5 человек, чтобы тренер
+                                        смог уделить внимание каждому.  Не случайно мы  делаем акцент на слове
+                                        «мини», так как мы глубоко убеждены, что групповые занятия должны приносить
+                                        не только удовольствие, но и реальную пользу.</p>
 								</div>
+                                    </div>
 								<div class="popup_form">
 									<div class="popup_form-title">Записаться<br>на пробную тренировку</div>
 									<form class="js-form">
@@ -356,9 +416,10 @@
 										<div class="popup_form-row">
 											<input class="input-1 js-phone" type="text" name="phone" placeholder="Телефон">
 										</div>	
-										<div class="popup_form-row">
+										<!--<div class="popup_form-row">
 											<input class="input-1" type="text" name="email" placeholder="E-mail">
-										</div>	
+										</div>-->
+										<input type="hidden" name="form_id" value="form10">
 										<input class="popup_form-btn" type="submit" value="записаться">
 									</form>
 								</div>
@@ -368,28 +429,42 @@
 					<div class="classic_list-item">
 						<img src="files/classic_3.png" alt="">
 						<div class="classic_list-info">
-							<div class="classic_list-name"><span class="child">Групповые занятия: малые группы</span><span class="helper"></span></div>
+							<div class="classic_list-name"><span class="child">Групповые занятия</span><span class="helper"></span></div>
 							<a class="classic_list-btn fancydiv2" href="#text-8">подробнее</a>
 							<div id="text-8" class="popup hide-content">
 								<a class="popup-close" href="#" onclick="$.fancybox.close(); return false;"></a>
-								<div class="popup-title">Групповые занятия: малые группы</div>
+								<div class="popup-title">Групповые занятия</div>
+                                <div class="popup_text-wrapper">
 								<div class="popup-text">
-									<p>При тренировках в малых группах создаются максимально комфортные условия для занятия каждого: 
-									свободное пространство для выполнения упражнений, внимание тренера к каждому в группе. В нашем 
-									клубе вы никогда не столкнетесь с нехваткой места в зале или спортивных снарядов.</p> 
+                                    <p>Более 20 видов вдохновляющих тренировок  для достижения Ваших самых
+                                        амбициозных целей!</p>
+                                    <p>У нас можно заниматься пилатесом и йогой,  силовыми тренировками для
+                                        подтяжки тела, функциональными тренировками,  направленными на активное
+                                        жиросжигание, ходить на занятия по расслаблению и растяжке, заниматься
+                                        боксом и танцами!</p>
+                                    <p>В отличие от других клубов,  мы глубоко убеждены, что групповые занятия
+                                        должны приносить не только удовольствие, но и реальный результат.
+                                        Поэтому мы формируем группы максимум из восьми человек, ведь только
+                                        так тренер может уделить внимание каждому. </p>
+                                    <p>Кто-то занимается с нами много лет, а вы только присоединились.
+                                        Разумеется, нагрузка не может быть одинаковой, поэтому тренер всегда
+                                        следит за каждым членом клуба на занятии, помогает и направляет.</p>
 								</div>
+                                    </div>
 								<div class="popup_form">
-									<div class="popup_form-title">Узнать больше о видах занятий<br>в малых группах</div>
+									<div class="popup_form-title">ПОСЕТИТЬ ПРОБНУЮ<br/> ТРЕНИРОВКУ</div>
 									<form class="js-form">
 										<div class="popup_form-row">
 											<input class="input-1" type="text" name="name" placeholder="Имя">
 										</div>	
 										<div class="popup_form-row">
+										<div class="popup_form-row">
 											<input class="input-1 js-phone" type="text" name="phone" placeholder="Телефон">
 										</div>	
-										<div class="popup_form-row">
+										<!--<div class="popup_form-row">
 											<input class="input-1" type="text" name="email" placeholder="E-mail">
-										</div>	
+										</div>-->
+										<input type="hidden" name="form_id" value="form11">
 										<input class="popup_form-btn" type="submit" value="Узнать">
 									</form>
 								</div>
@@ -447,7 +522,7 @@
 		</div>	
 
 		<div class="online">
-			<div class="online-title"><i>Запишись на персональную тренировку:</i> консультация тренера + клубная карта в подарок!</div>
+			<div class="online-title"><strong>ЗАПИСАТЬСЯ НА <strong class="free">БЕСПЛАТНОЕ</strong> FITLAB ТЕСТИРОВАНИЕ!</strong></div>
 			<div class="online_form-row">
 				<a class="online_form-btn fancyonline" href="#online">Записаться</a>
 			</div>			
@@ -501,6 +576,7 @@
 							</p>
 						</div>
 						<a class="team_list-btn fancyonline" href="#online">Записаться на тренировку</a>
+
 					</div>
 				</li>
 				<li>
@@ -523,6 +599,7 @@
 							</p>
 						</div>
 						<a class="team_list-btn fancyonline" href="#online">Записаться на тренировку</a>
+
 					</div>
 				</li>
 				<li>	
@@ -588,7 +665,62 @@
 
 		<div class="photo" id="photo">		
 			<h2 class="photo-title">Фотогалерея</h2>
-			<ul class="photo_list">		
+
+			<div class="photo_slider">
+				<div class="photo_item">
+					<a class="fancybox" rel="photo" href="files/gallery/g1.JPG">
+						<img src="files/gallery/g1.min.jpg" alt="1">
+					</a>
+				</div>
+				<div class="photo_item">
+					<a class="fancybox" rel="photo" href="files/gallery/g2.JPG">
+						<img src="files/gallery/g2.min.jpg" alt="1">
+					</a>
+				</div>
+				<div class="photo_item">
+					<a class="fancybox" rel="photo" href="files/gallery/g3.JPG">
+						<img src="files/gallery/g3.min.jpg" alt="1">
+					</a>
+				</div>
+				<div class="photo_item">
+					<a class="fancybox" rel="photo" href="files/gallery/4.JPG">
+						<img src="files/gallery/g4.min.jpg" alt="1">
+					</a>
+				</div>
+				<div class="photo_item">
+					<a class="fancybox" rel="photo" href="files/gallery/g5.JPG">
+						<img src="files/gallery/g5.min.jpg" alt="1">
+					</a>
+				</div>
+				<div class="photo_item">
+					<a class="fancybox" rel="photo" href="files/gallery/g6.jpg">
+						<img src="files/gallery/g6.min.jpg" alt="1">
+					</a>
+				</div>
+				<div class="photo_item">
+					<a class="fancybox" rel="photo" href="files/gallery/g7.jpg">
+						<img src="files/gallery/g7.min.jpg" alt="1">
+					</a>
+				</div>
+				<div class="photo_item">
+					<a class="fancybox" rel="photo" href="files/gallery/g8.JPG">
+						<img src="files/gallery/g8.min.jpg" alt="1">
+					</a>
+				</div>
+				<div class="photo_item">
+					<a class="fancybox" rel="photo" href="files/gallery/g9.JPG">
+						<img src="files/gallery/g9.min.jpg" alt="1">
+					</a>
+				</div>
+				<div class="photo_item">
+					<a class="fancybox" rel="photo" href="files/gallery/g10.JPG">
+						<img src="files/gallery/g10.min.jpg" alt="1">
+					</a>
+				</div>
+			</div>
+
+
+			<!--<ul class="photo_list">
 				<li>		
 					<div class="photo_list-page">
 						<div class="photo_list-item">
@@ -757,13 +889,14 @@
 						</div>	
 					</div>
 				</li>
-			</ul>
+			</ul>-->
 		</div>
 		
 		<div class="online">
-			<div class="online-title"><i>Запишись на персональную тренировку:</i> консультация тренера + клубная карта в подарок!</div>
+			<div class="online-title"><strong>ПРИХОДИТЕ К НАМ В ГОСТИ: </strong>ЗАПИСАТЬСЯ НА ПРОСМОТР КЛУБА</div>
 			<div class="online_form-row">
 				<a class="online_form-btn fancyonline" href="#online">Записаться</a>
+				<input type="hidden" name="form_id" value="form11">
 			</div>			
 		</div>
 
@@ -796,21 +929,23 @@
 							</div>						
 						</div>
 						<div class="reviews_list-text">
-							Основной моей задачей было снижение веса, а основная претензия к себе – невозможность похудеть, скорее даже, неумение и непонимание влияния продуктов питания на организм. 
-							В Fitlab я пришла к тренеру Максиму в феврале 2016 г. 
+							В Fitlab я пришла к тренеру Максиму в феврале 2016 г.
 							Мой первоначальный вес был 68 кг., при росте 168. Цель 55 кг.
-							Первая тренировка началась с тестирования (объемы, вес) наверное, самое неприятное за весь период моих тренировок. 
-							Тренером была подготовлена программа питания и схема тренировок. После месяца соблюдения рекомендаций  
-							я уже была довольна динамике показателей. Ежедневные отчеты, приготовление еды, наблюдение за весом, 
-							подсчет калорий - спустя 3 месяца я поняла, что такой режим вошел в мою жизнь и мне не составляет труда 
-							соблюдать все наставления тренера, несмотря  на активную жизнь и загруженность в работе. 
-							С учетом полного контролинга со стороны тренера на реакцию/динамику/самочувствие моего 
-							организма за весь период было: смена питания, проведение детокс, изменение комплекса тренировок. 
-							Мне было очень комфортно, так как на любой вопрос я оперативно получала ответ и разъяснение от тренера.
-							К маю 2016 г. мой вес достиг 57 кг., а в июле 53. (питание + 2 тренировки в неделю)
-							Таким образом, за весь период, в общей сложности минус 16 кг. Это ли не показатель в подтверждение компетентности тренера и моих усилий?)
-							Спасибо Fitlab за сотрудничество, а Максиму за профессионализм, терпение и понмание.
-							<a href="https://www.instagram.com/marinna_volkova/" target="_blank">Мой Instagram</a>
+							Первая тренировка началась с тестирования (объемы, вес) наверное, самое неприятное за
+							весь период моих тренировок.
+							Тренером была подготовлена программа питания и схема тренировок. После месяца
+							соблюдения рекомендаций
+							я уже была довольна динамике показателей. Ежедневные отчеты, приготовление еды,
+							наблюдение за весом,
+							подсчет калорий - спустя 3 месяца я поняла, что такой режим вошел в мою жизнь и мне
+							не составляет труда
+							соблюдать все наставления тренера.
+							С учетом полного контролинга со стороны тренера на реакцию/динамику/самочувствие моего
+							организма за весь период было: смена питания, проведение детокс, изменение комплекса
+							тренировок.
+							К маю 2016 г. мой вес достиг 57 кг., а в июле 53.
+							Спасибо Fitlab за сотрудничество, а Максиму за профессионализм, терпение и понимание.
+							<a href="https://www.instagram.com/marinna_volkova/" target="_blank">Марина Волкова</a>
 						</div>
 					</div>
 				</li>
@@ -841,16 +976,18 @@
 							</div>						
 						</div>
 						<div class="reviews_list-text">
-								Я пришла в Fitlab по рекомендации подруги к персональному тренеру Максиму с проблемой общей для большинства мамочек: 
-								набор веса в период ухода за родившимся ребенком и тюлений образ жизни в течении 8 лет. 
-								В моем случае лишних 30 кг, сильная одышка при малых нагрузках, кроме того была травма плеча, 
-								которая не поддавалась лечению врачей около года.  Максим составил программу тренировок, 
-								режим питания, правильное меню, подходяще мне лично, следит за динамикой, вносит необходимые корректировки. 
-								Тренер профессионал, коммуникабельный, харизматичный, требовательный сумел настроить меня на активный образ жизни. 
-								Занимаюсь 3 раза в неделю. Результат не только визуальный: -8 кг за неполных 2 месяца, одышка пропала, про боль в 
-								плече я вообще забыла, а главное появилась уверенность, что смогу вернуть прежнюю форму.  
-								Спасибо Максиму за проделанную работу, все благодарности еще впереди!
-								<a href="https://www.instagram.com/_marina_romanova__/"  target="_blank">Мой Instagram</a>
+							Я пришла в Fitlab по рекомендации подруги к персональному тренеру Максиму с
+							проблемой общей для большинства мамочек: набор веса в период ухода за родившимся
+							ребенком. В моем случае лишних 30 кг, сильная одышка при малых нагрузках, кроме
+							того была травма плеча, которая не поддавалась лечению врачей около года.  Максим
+							составил программу тренировок, режим питания, правильное меню, подходяще мне лично.
+							Тренер профессионал,
+							коммуникабельный, харизматичный, требовательный сумел настроить меня на активный образ
+							жизни. Занимаюсь 3 раза в неделю. Результат не только визуальный: -8 кг за неполных
+							2 месяца, одышка пропала, про боль вплече я вообще забыла, а главное появилась
+							уверенность, что смогу вернуть прежнюю форму.
+							Спасибо Максиму за проделанную работу, все благодарности еще впереди!
+							<a href="https://www.instagram.com/_marina_romanova__/"  target="_blank">Марина Романова</a>
 						</div>
 					</div>
 				</li>
@@ -889,7 +1026,7 @@
 							персонал FITLAB - всегда вежливое и доброжелательное отношение, готовность 
 							помочь советом. Я не жалею, что пришла именно сюда, чтобы решить свои проблемы.
 							<br>
-							<a href="https://www.facebook.com/profile.php?id=100009348924109" target="_blank">Я в фейсбуке</a>
+							<a href="https://www.facebook.com/profile.php?id=100009348924109" target="_blank">Татьяна</a>
 						</div>
 					</div>
 				</li>
@@ -922,7 +1059,7 @@
 							</div>
 							<div class="reviews_list-text">Безгранично благодарна тренеру Алексею Федорову за профессионализм и знание своего дела на отлично!!! За индивидуальный и комплексный подход к решению проблемы!! За то, что работаете на результат!!! Реально помогаете и возвращаете к полноценной жизни!!!!!!!
 							<br>
-							<a href="https://vk.com/id156416100 " target="_blank">Мой профиль Вконтакте</a>
+							<a href="https://vk.com/id156416100 " target="_blank">Вера</a>
 							</div>						
 				</li>	
 			</ul>
@@ -930,8 +1067,8 @@
 		
 		<footer class="footer">
 			<div class="footer_online">
-				<div class="footer_online-title">Запишись<br>на персональную<br>тренировку:</div>
-				<div class="footer_online-text">консультация тренера +<br>клубная карта в подарок!</div>
+				<div class="footer_online-title">ОСТАЛИСЬ ВОПРОСЫ?</div>
+				<div class="footer_online-text">Мы свяжемся с вами<br/> в ближайшее время</div>
 				<form class="js-form">
 					<div class="footer_online-row">
 						<input class="input-1" type="text" name="name" placeholder="Имя">
@@ -939,9 +1076,10 @@
 					<div class="footer_online-row">
 						<input class="input-1 js-phone" type="text" name="phone" placeholder="Телефон">
 					</div>	
-					<div class="footer_online-row">
+					<!--<div class="footer_online-row">
 						<input class="input-1" type="text" name="email" placeholder="E-mail">
-					</div>	
+					</div>	-->
+					<input type="hidden" name="form_id" value="form15">
 					<input class="footer_online-btn" type="submit" value="записаться">
 				</form>
 			</div>
@@ -970,6 +1108,77 @@
 			<div class="footer_logo">
 				<span class="footer_logo-img"></span> 
 			</div>
+
+            <div class="politiс">Политика конфиденциальности</div>
+
+            <div class="politic_parent_popup">
+                <div class="politic_close"></div>
+            </div>
+
+            <div class="politic_popup">
+
+                <div class="politic_popup-txt">
+                    <h2>ПОЛЬЗОВАТЕЛЬСКОЕ СОГЛАШЕНИЕ</h2>
+                    <p>Я, субъект персональных данных, в соответствии с Федеральным законом от 27 июля 2006 года
+                        № 152 «О персональных данных» предоставляю ООО Фитнес Лаборатория (далее - Оператор),
+                        расположенному по адресу 107370, г. Москва, Бульвар Маршала Рокоссовского, дом 6, корпус 1,
+                        согласие на обработку персональных данных, указанных мной в регистрационной форме и/или в
+                        форме заказа обратного звонка на сайте в сети «Интернет», владельцем которого является Оператор.</p>
+
+                    <p>Состав предоставляемых мной персональных данных является следующим: ФИО, адрес электронной почты
+                        и
+                        номер телефона.</p>
+
+                    <p>Также администрация Оператора получает данные о моём IP-адресе, а также о типе браузера, времени
+                        нахождения на сайте и прочие подобные сведения. Сбор ведётся с помощью сервисов статистики.
+                        Целями обработки моих персональных данных являются: обеспечения взаимодействия сотрудников
+                        Оператора и субъекта персональных данных с целью информирования последнего об услугах оператора,
+                        специальных предложениях и акциях, записи на услуги, оказываемые Оператором.
+                        Согласие предоставляется на совершение следующих действий (операций) с указанными в настоящем
+                        согласии персональными данными: сбор, систематизацию, накопление, хранение, уточнение
+                        (обновление, изменение), использование, передачу (предоставление, доступ), блокирование,
+                        удаление, уничтожение, осуществляемых как с использованием средств автоматизации
+                        (автоматизированная обработка), так и без использования таких средств (неавтоматизированная
+                        обработка).</p>
+                    <p>Я понимаю и соглашаюсь с тем, что предоставление Оператору какой-либо информации о себе, не
+                        являющейся контактной и не относящейся к целям настоящего согласия, а равно предоставление
+                        информации, относящейся к государственной, банковской и/или коммерческой тайне, информации о
+                        расовой и/или национальной принадлежности, политических взглядах, религиозных или философских
+                        убеждениях, состоянии здоровья, интимной жизни запрещено.
+                        В случае принятия мной решения о предоставлении Оператору какой-либо информации (каких-либо
+                        данных), я обязуюсь предоставлять исключительно достоверную и актуальную информацию и не вправе
+                        вводить Оператора в заблуждение в отношении своей личности, сообщать ложную или недостоверную
+                        информацию о себе.</p>
+                    <p> Я понимаю и соглашаюсь с тем, что Оператор не проверяет достоверность персональных данных,
+                        предоставляемых мной, и не имеет возможности оценивать мою дееспособность и исходит из того, что
+                        я предоставляю достоверные персональные данные и поддерживаю такие данные в актуальном
+                        состоянии.</p>
+                    <p>Согласие действует по достижении целей обработки или в случае утраты необходимости в достижении
+                        этих целей, если иное не предусмотрено федеральным законом.
+                        Согласие может быть отозвано мною в любое время на основании моего письменного заявления.</p>
+
+                    <h2>Защита персональных данных</h2>
+                    <p> Оператор обязуется не разглашать сведения, полученные от клиентов. Она хранится в базе данных на
+                        локальном компьютере администрации Оператора. Доступ к компьютеру надёжно защищён паролем,
+                        который имеется только у администратора сайта.</p>
+                    <h2>Предоставление данных третьим лицам</h2>
+                    <p>Полученные сведения не могут быть переданы третьим лицам, за исключением следующих случаев:</p>
+                    <ul>
+                        <li>Для исполнения обязательств перед клиентом – только с его разрешения.</li>
+                        <li>Для исполнения обязательств перед клиентом – только с его разрешения.</li>
+                        <li>В соответствии с обоснованными и применимыми требованиями закона.</li>
+                    </ul>
+                    <br>
+                    <br>
+
+                    <p>Контакты</p>
+                    По всем вопросам вы можете обращаться к администрации сайта.
+                    <p>Телефон: +7 495 252 05 40.</p>
+                    <p>E-mail:</p> <a href="mailto:info@fitlab-studio.ru">info@fitlab-studio.ru</a>
+                    <p><a href="files/politic.pdf">Настоящая редакция политики конфиденциальности опубликована 28 июня 2017 года.</a></p>
+                </div>
+            </div>
+
 		</footer> 		
 	</div>	
 
@@ -984,19 +1193,23 @@
 			<div class="popup_online-row">
 				<input class="input-1 js-phone" type="text" name="phone" placeholder="Телефон">
 			</div>	
-			<div class="popup_online-row">
+			<!--<div class="popup_online-row">
 				<input class="input-1" type="text" name="email" placeholder="E-mail">
-			</div>	
+			</div> -->
 			<input class="popup_online-btn" type="submit" value="записаться">
 		</form>
 	</div>
-	
+
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery.bxslider/jquery.bxslider.min.js"></script>		
 	<script src="js/jquery.bxslider/jquery.bxslider.min.js"></script>	
 	<script src="js/fancybox/jquery.fancybox.pack.js"></script>
-	<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css">	
+	<script src="js/slick-1.6.0/slick/slick.min.js"></script>
 	<script src="js/scripts.js"></script>
+	<link rel="stylesheet" type="text/css" href="js/slick-1.6.0/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="js/slick-1.6.0/slick/slick-theme.css"/>
+	<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css">	
+
 	
 	<!-- Yandex.Metrika counter -->
 	<script type="text/javascript">
