@@ -779,7 +779,7 @@
 		background: url('../img/title_1.png') 0 0 no-repeat;
 	}
 	.team_list-page {
-		height: 900px;
+		height: 578px;
 		overflow: hidden;
 		padding-left: 38px;
 	}
@@ -815,7 +815,7 @@
 		position: relative;
 		z-index: 100;
 		padding: 237px 0 0 0;
-		height: 575px;
+		height: 245px;
 		width: 250px;
 		overflow: hidden;
 	}
@@ -863,10 +863,11 @@
 		font-family: "Roboto";
 		color: rgb(45, 41, 38);
 		line-height: 20px;
+		color: #ffffff;
 	}
 	.team .bx-wrapper {
 		position: relative;
-		height: 942px;
+		height: 628px;
 	}
 	.team .bx-prev {
 		position: absolute;
@@ -1389,12 +1390,21 @@
 	
 .popup {
 	width: 783px;
+    background: #3399b2;
 	height: 552px;
-	background: #3399b2 url(../img/popup.png) 0 0 no-repeat;
-	padding: 70px 78px 0 78px;
+    padding: 70px 78px 0 78px;
 	position: relative;
 	display: none;
 }
+    .bg_img{
+        width: 100%;
+        height: 552px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-size: cover !important;
+    }
+
 	.popup-close {
 		position: absolute;
 		top: 40px;
@@ -1435,14 +1445,14 @@
 		color: rgb(255, 255, 255);
 		text-transform: uppercase;
 		line-height: 1.2;
-		width: 428px;
+		width: 800px;
         position: absolute;
-        right: 58px;
+        left: 75px;
         top: 63px;
 	}
 
 	.popup-text {
-		width: 430px;
+		width: 800px;
 		font-size: 16px;
 		font-family: "Roboto";
 		color: rgb(255, 255, 255);
@@ -1450,15 +1460,14 @@
 		padding: 0;
 		margin: 0 0 10px 0;
         position: absolute;
-        right: 55px;
+        left: 75px;
         top: 153px;
 	}
 
     .popup_text-wrapper{
-        width: 430px;
+        width: 800px;
         height: 231px;
-        overflow-y: auto;
-
+        position: absolute;
     }
 
     .popup_text-wrapper::-webkit-scrollbar{
@@ -1548,7 +1557,7 @@
 		background: url(../img/close.png) 0 0 no-repeat;
 	}
 	.popup_online-title {
-		font-size: 44px;
+		font-size: 36px;
 		color: rgb(255, 255, 255);
 		text-transform: uppercase;
 		line-height: 44px;

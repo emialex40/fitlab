@@ -716,7 +716,7 @@ body {
 	padding: 34px 0 37px 0;
 }
 	.team-title {
-		font-size: 48px;
+		font-size: 37px;
 		font-family: "Roboto black italic";
 		font-weight: normal;
 		color: rgb(0, 121, 141);
@@ -738,11 +738,12 @@ body {
 		background: url('../img/title_1.png') 0 0 no-repeat;
 	}
 	.team_list-item {
+        width: 100%;
 		display: inline-block;
 		position: relative;
 		padding: 0 80px 0 80px;
 		margin: 0 0 0 0;
-		height: 770px;
+		height: 440px;
 	}
 	.team_list-img {
 		height: 241px;
@@ -779,12 +780,12 @@ body {
 		width: 250px;
 	}
 	.team_list-text {
-		font-size: 19px;
+		font-size: 14px;
 		font-family: "Roboto";
-		color: rgb(45, 41, 38);
-		line-height: 30px;
+		line-height: 22px;
 		margin-bottom: 10px;
 		height: 390px;
+		color: #ffffff
 	}
 	
 	.team_list-btn {
@@ -803,7 +804,8 @@ body {
 		text-transform: uppercase;
 		box-shadow: 0 4px 15px 1px #e3e3e3;
 		text-decoration: none;
-		width: 100%;
+		width: 85%;
+        margin-top: 40px;
 	}
 	.team_list-btn:hover {
 		background: #f14d8a;
@@ -811,11 +813,12 @@ body {
 
 	.team .bx-wrapper {
 		position: relative;
+        height: 550px;
 	}
 	.team .bx-prev {
 		position: absolute;
 		left: 20px;
-		top: 245px;
+		top: 130px;
 		background: url(../img/slider_1-prev.png) 0 0 no-repeat;
 		height: 58px;
 		width: 19px; 
@@ -826,7 +829,7 @@ body {
 	.team .bx-next {
 		position: absolute;
 		right: 20px;
-		top: 245px;
+		top: 130px;
 		background: url(../img/slider_1-next.png) 0 0 no-repeat;
 		height: 58px;
 		width: 19px; 
@@ -853,6 +856,10 @@ body {
 	.team .bx-pager .bx-pager-item a.active {
 		background: url(../img/slider_1-active.png) 0 0 no-repeat;
 	}
+
+    .team .bx-viewport{
+        height: 455px !important;
+    }
 
 .photo {
 	background: #3399a5 url(../img/species.jpg) no-repeat center top;
@@ -1207,7 +1214,8 @@ body {
 	
 	.footer_text {
 		padding: 0 40px 0 40px;
-	}	
+        margin-top: -150px;
+	}
 	
 	.footer_text-title {
 		font-size: 48px;
@@ -1278,6 +1286,16 @@ body {
 		width: 263px;
 		height: 71px;
 	}
+
+/*.popup_team{*/
+/*}*/
+
+    .form_team{
+        width: 80%;
+        position: absolute;
+        top: 412px;
+        left: 10.5%;
+    }
 	
 .popup_online {
 	background: #178496;
@@ -1297,10 +1315,10 @@ body {
 		background: url(../img/close.png) 0 0 no-repeat;
 	}
 	.popup_online-title {
-		font-size: 44px;
+		font-size: 20px;
 		color: rgb(255, 255, 255);
 		text-transform: uppercase;
-		line-height: 44px;
+		line-height: 30px;
 		font-family: "Roboto black";
 		white-space: nowrap;
 		margin-bottom: 12px;
@@ -1310,7 +1328,7 @@ body {
 		color: rgb(255, 255, 255);
 		line-height: 24px;
 		text-transform: uppercase;
-		margin-bottom: 20px;
+		margin-bottom: 145px;
 	}
 	.popup_online-row {
 		margin-bottom: 17px;
@@ -1337,10 +1355,22 @@ body {
 
 .popup {
 	width: 441px;
+    height: 725px;
 	background: #178496;
 	padding: 60px;
 	position: relative;
 }
+
+.bg_img{
+    width: 100%;
+    height: 847px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover !important;
+    z-index: 0;
+}
+
 	.popup-title {
 		font-size: 28px;
 		font-family: "Roboto bold italic";
@@ -1348,18 +1378,26 @@ body {
 		text-transform: uppercase;
 		line-height: 1.2;
 		width: 420px;
+        position: absolute;
+        top: 75px;
+        left: 10%;
 	}	
 	.popup-text {
+        width: 80%;
 		font-size: 17px;
 		font-family: "Roboto";
 		color: rgb(255, 255, 255);
 		line-height: 1.6;
+        position: absolute;
+        top: 165px;
+        left: 10%;
 	}
 
 	.popup_text-wrapper{
 		width: 430px;
-		height: 160px;
+		height: 325px;
 		overflow-y: auto;
+
 	}
 
 	.popup_text-wrapper::-webkit-scrollbar{
@@ -1376,9 +1414,12 @@ body {
 	.popup_form {
 		border-top: 1px solid #6eb9c3;
 		padding-top: 20px;
+        position: absolute;
+        bottom: 20px;
+        left: 13%;
 	}
 	.popup_form-title {
-		font-size: 24px;
+		font-size: 21px;
 		color: rgb(255, 255, 255);
 		text-transform: uppercase;
 		line-height: 28px;

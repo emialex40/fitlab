@@ -132,17 +132,16 @@
 			<div class="species_box">
 				<div class="species_list clearfix">
 					<div class="species_list-item">
-						<img src="files/foto3(2).JPG" alt="foto3">
+						<img src="files/foto_3.JPG" alt="foto3">
 						<div class="species_list-info">
 							<div class="species_list-name"><span class="child">Персональные тренировки в <i>тренажерном зале</i></span><span class="helper"></span></div>
 							<a class="species_list-btn fancydiv" href="#text-1">Подробнее</a>
 						</div>
 						
 						<div id="text-1" class="popup hide-content">
+                            <div class="bg_img" style="background: url(files/bg_foto1.jpg) no-repeat; background-size: cover;"></div>
 							<a class="popup-close" href="#" onclick="$.fancybox.close(); return false;"></a>
-                            <div class="popup_img">
-                                <img src="files/foto3(2).JPG" alt="foto3">
-                            </div>
+
 							<div class="popup-title">Персональные тренировки в тренажерном зале</div>
 							<div class="popup-text">
 								<p>Кардиотренажеры, силовые тренажеры, зона функционального тренинга - вы можете выбрать любое направление занятий с персональным 
@@ -174,10 +173,8 @@
 						</div>
 						
 						<div id="text-2" class="popup hide-content">
+                            <div class="bg_img" style="background: url(files/bg_foto2.jpg) no-repeat; background-size: cover;"></div>
 							<a class="popup-close" href="#" onclick="$.fancybox.close(); return false;"></a>
-                            <div class="popup_img">
-                                <img src="files/for_form/pers-tren-popup.min.jpg" alt="foto1">
-                            </div>
                             <div class="popup-title"><!--Персональные тренировки: -->пилатес в профессиональной студии и на тренажерах</div>
 							<div class="popup-text">
 								<p>Пилатес - самые мягкие тренировки, подходящие в том числе для пожилых и беременных. 
@@ -212,10 +209,8 @@
 						</div>
 						
 						<div id="text-4" class="popup hide-content">
+                            <div class="bg_img" style="background: url(files/bg_foto3.jpg) no-repeat; background-size: cover;"></div>
 							<a class="popup-close" href="#" onclick="$.fancybox.close(); return false;"></a>
-                            <div class="popup_img">
-                                <img src="files/for_form/fun-tr-pop.jpg" alt="species_4">
-                            </div>
 							<div class="popup-title">Персональные тренировки: функциональный тренинг</div>
 							<div class="popup-text">
 								<p>Самый быстрый способ привести себя в форму!<br/> В отличие от обычных силовых упражнений, на функциональных тренировках прорабатывается сразу все тело.
@@ -246,10 +241,8 @@
 							<a class="species_list-btn fancydiv" href="#text-3">Подробнее</a>
 						</div>
 						<div id="text-3" class="popup hide-content">
+                            <div class="bg_img" style="background: url(files/bg_foto4.jpg) no-repeat; background-size: cover;"></div>
 							<a class="popup-close" href="#" onclick="$.fancybox.close(); return false;"></a>
-                            <div class="popup_img">
-                                <img src="files/for_form/t_sm_group.jpg" alt="foto2">
-                            </div>
                             <div class="popup-title">Тренировки с персональным тренером в малых группах</div>
 							<div class="popup-text">
 								<p>Этот экономичный вариант тренировок совмещает в себе индивидуальные и групповые занятия: 
@@ -336,35 +329,8 @@
 							<div class="classic_list-name"><span class="child">Кардио-<br>тренировки</span><span class="helper"></span></div>
 							<a class="classic_list-btn fancydiv" href="#text-5">подробнее</a>
 							<div id="text-5" class="popup hide-content">
+                                <div class="bg_img" style="background: url(files/bg_foto5.jpg) no-repeat; background-size: cover;"></div>
 								<a class="popup-close" href="#" onclick="$.fancybox.close(); return false;"></a>
-								<div class="popup-slider">
-
-									<div class="popup-obj">
-										<a class="fancybox" rel="photo" href="files/for_form/cl-fit-card-big.jpg">
-											<img src="files/for_form/cl-fit-cardio.jpg" alt="1">
-										</a>
-									</div>
-
-                                    <div class="popup-obj">
-                                        <a class="fancybox" rel="photo" href="files/for_form/classic_fit_cardio1.jpg">
-                                            <img src="files/for_form/classic_fit_cardio1.min.jpg" alt="1">
-                                        </a>
-                                    </div>
-
-                                    <div class="popup-obj">
-                                        <a class="fancybox" rel="photo" href="files/for_form/classic_fit_cardio2.jpg">
-                                            <img src="files/for_form/classic_fit_cardio2.min.jpg" alt="1">
-                                        </a>
-                                    </div>
-
-                                    <div class="popup-obj">
-                                        <a class="fancybox" rel="photo" href="files/for_form/classic_fit_cardio3.jpg">
-                                            <img src="files/for_form/classic_fit_cardio3.min.jpg" alt="1">
-                                        </a>
-                                    </div>
-
-
-                                </div>
                                 <div class="popup-title">Кардиозона</div>
 								<div class="popup-text">
                                     <div class="popup_text-wrapper">
@@ -406,29 +372,8 @@
 							<div class="classic_list-name"><span class="child">Тренажерный<br>зал</span><span class="helper"></span></div>
 							<a class="classic_list-btn fancydiv" href="#text-6">подробнее</a>							
 							<div id="text-6" class="popup hide-content">
+                                <div class="bg_img" style="background: url(files/bg_foto6.jpg) no-repeat; background-size: cover;"></div>
 								<a class="popup-close" href="#" onclick="$.fancybox.close(); return false;"></a>
-                                <div class="popup-slider">
-
-                                    <div class="popup-obj">
-                                        <a class="fancybox" rel="photo" href="files/for_form/classic_fit_tren1.jpg">
-                                            <img src="files/for_form/classic_fit_tren1.min.jpg" alt="1">
-                                        </a>
-                                    </div>
-
-                                    <div class="popup-obj">
-                                        <a class="fancybox" rel="photo" href="files/for_form/classic_fit_tren2.jpg">
-                                            <img src="files/for_form/classic_fit_tren2.min.jpg" alt="1">
-                                        </a>
-                                    </div>
-
-                                    <div class="popup-obj">
-                                        <a class="fancybox" rel="photo" href="files/for_form/classic_fit_tren3.jpg">
-                                            <img src="files/for_form/classic_fit_tren3.min.jpg" alt="1">
-                                        </a>
-                                    </div>
-
-
-                                </div>
                                 <div class="popup-title">Тренажерный зал</div>
 								<div class="popup-text">
                                     <div class="popup_text-wrapper">
@@ -477,35 +422,8 @@
 							<div class="classic_list-name"><span class="child">СТУДИЯ ПИЛАТЕС</span><span class="helper"></span></div>
 							<a class="classic_list-btn fancydiv" href="#text-7">подробнее</a>
 							<div id="text-7" class="popup hide-content">
+                                <div class="bg_img" style="background: url(files/bg_foto7.jpg) no-repeat; background-size: cover;"></div>
 								<a class="popup-close" href="#" onclick="$.fancybox.close(); return false;"></a>
-                                <div class="popup-slider">
-
-									<div class="popup-obj">
-										<a class="fancybox" rel="photo" href="files/for_form/classic-pil-big.jpg">
-											<img src="files/for_form/classic-pil.jpg" alt="1">
-										</a>
-									</div>
-
-                                    <div class="popup-obj">
-                                        <a class="fancybox" rel="photo" href="files/for_form/classic_fit_pil1.jpg">
-                                            <img src="files/for_form/classic_fit_pil1.min.jpg" alt="1">
-                                        </a>
-                                    </div>
-
-                                    <div class="popup-obj">
-                                        <a class="fancybox" rel="photo" href="files/for_form/classic_fit_pil2.jpg">
-                                            <img src="files/for_form/classic_fit_pil2.min.jpg" alt="1">
-                                        </a>
-                                    </div>
-
-                                    <div class="popup-obj">
-                                        <a class="fancybox" rel="photo" href="files/for_form/classic_fit_pil3.jpg">
-                                            <img src="files/for_form/classic_fit_pil3.min.jpg" alt="1">
-                                        </a>
-                                    </div>
-
-
-                                </div>
                                 <div class="popup-title">СТУДИЯ ПИЛАТЕС</div>
 								<div class="popup-text">
                                     <div class="popup_text-wrapper">
@@ -551,29 +469,8 @@
 							<div class="classic_list-name"><span class="child">Групповые занятия</span><span class="helper"></span></div>
 							<a class="classic_list-btn fancydiv" href="#text-8">подробнее</a>
 							<div id="text-8" class="popup hide-content">
+                                <div class="bg_img" style="background: url(files/bg_foto8.jpg) no-repeat; background-size: cover;"></div>
 								<a class="popup-close" href="#" onclick="$.fancybox.close(); return false;"></a>
-                                <div class="popup-slider">
-
-                                    <div class="popup-obj">
-                                        <a class="fancybox" rel="photo" href="files/for_form/classic_fit_group1.jpg">
-                                            <img src="files/for_form/classic_fit_group1.min.jpg" alt="1">
-                                        </a>
-                                    </div>
-
-                                    <div class="popup-obj">
-                                        <a class="fancybox" rel="photo" href="files/for_form/classic_fit_group2.jpg">
-                                            <img src="files/for_form/classic_fit_group2.min.jpg" alt="1">
-                                        </a>
-                                    </div>
-
-                                    <div class="popup-obj">
-                                        <a class="fancybox" rel="photo" href="files/for_form/classic_fit_group3.jpg">
-                                            <img src="files/for_form/classic_fit_group3.min.jpg" alt="1">
-                                        </a>
-                                    </div>
-
-
-                                </div>
                                 <div class="popup-title">Групповые занятия</div>
 								<div class="popup-text">
                                     <div class="popup_text-wrapper">
@@ -704,15 +601,9 @@
 							<div class="team_list-info">
 								<div class="team_list-name">Алексей Фёдоров</div>
 								<p class="team_list-preview">Персональный тренер. Специалист <br> по физической реабилитации.  Инструктор <br> по функциональному тренингу. Преподаватель пилатес. Инструктор <br> по йоге, bodyART и deepWORK.</p>
-								<p class="team_list-text">
-									Выпускник с отличием Российского Государственного Университета Физической Культуры, Спорта и Туризма (факультет физической реабилитации). 
-									<br>Выпускник международной школы Майкл Кинг Пилатес (Великобритания). 
-									<br>Сертифицированный инструктор по Хатха и Аштанга йоге. Проходил обучение в Индии. 
-									<br>Сертифицированный инструктор по программам bodyART, deepWORK. 
-									<br>Сертифицированный инструктор по функциональному тренингу и работе с петлями TRX. 
-									<br>Кандидат в мастера спорта по скалолазанию и туристическому многоборью. Опыт работы более 5 лет.</p>
+
 							</div>
-							<a class="team_list-btn fancyonline" href="#online">Записаться на тренировку</a>
+							<a class="team_list-btn fancyonline" href="#alexey">Записаться на тренировку</a>
 						</div>
 
 						<div class="team_list-item">
@@ -722,16 +613,9 @@
 							<div class="team_list-info">
 								<div class="team_list-name">Павла Федорова</div>
 								<p class="team_list-preview">Персональный тренер. Инструктор <br> по функциональному тренингу. Преподаватель пилатес. Инструктор bodyART, BAX и deepWORK.</p>
-								<p class="team_list-text">
-									Выпускница с отличием Российского Государственного Университета Физической Культуры, Спорта и Туризма (факультет физической реабилитации). 
-									<br>Сертифицированный персональный тренер. 
-									<br>Выпускница международной школы Майкл Кинг Пилатес (Великобритания). 
-									<br>Сертифицированный инструктор по функциональному тренингу и работе с петлями TRX. 
-									<br>Постоянный презентер российских фитнес конвенций. 
-									<br>Кандидат в мастера спорта по лёгкой атлетике. 
-									<br>Опыт работы более 5 лет.</p>
+
 							</div>
-							<a class="team_list-btn fancyonline" href="#online">Записаться на тренировку</a>
+							<a class="team_list-btn fancyonline" href="#pavla">Записаться на тренировку</a>
 						</div>
 
 						<div class="team_list-item">
@@ -741,14 +625,9 @@
 							<div class="team_list-info">
 								<div class="team_list-name">Оксана Ракитянская</div>
 								<p class="team_list-preview">Персональный тренер. Инструктор по функциональному тренингу. Преподаватель Pilates. Инструктор bodyART, deepWORK</p>
-								<p class="team_list-text">
-									Выпускница с отличием Государственной Академии Культуры и искусств, факультет хореографии. 
-									<br>Сертифицированный персональный тренер. 
-									<br>Слушатель международной школы Майкл Кинг Пилатес (Великобритания).
-									<br>Сертифицированный инструктор по программам bodyART и deepWORK. 
-									<br>Опыт работы более 5 лет.</p>
+
 							</div>
-							<a class="team_list-btn fancyonline" href="#online">Записаться на тренировку</a>
+							<a class="team_list-btn fancyonline" href="#oxana">Записаться на тренировку</a>
 						</div>
                     </div>
 				</li>
@@ -764,16 +643,9 @@
 									Мастер-тренер Пилатес и bodyART. Инструктор по функциональному тренингу. 
 									Руководитель образовательных программ «Лаборатории Фитнеса «FITLAB».
 								</p>
-								<p class="team_list-text">
-									Мастер-тренер и основатель российского представительства международной школы Майкл Кинг Пилатес (Великобритания). 
-									<br>Международный мастер-тренер bodyART (Германия). 
-									<br>Сертифицированный инструктор по программам deepWORK, BAX. 
-									<br>Сертифицированный инструктор по функциональному тренингу и работе с петлями TRX.  
-									<br>Ведущая образовательных семинаров, международный фитнес презентер. 
-									<br>Опыт работы более 15 лет.
-								</p>
+
 							</div>
-							<a class="team_list-btn fancyonline" href="#online">Записаться на тренировку</a>
+							<a class="team_list-btn fancyonline" href="#vika">Записаться на тренировку</a>
 						</div>
 
 						<div class="team_list-item">
@@ -785,16 +657,9 @@
 								<p class="team_list-preview">
 									Персональный тренер. Инструктор по функциональному тренингу. Преподаватель пилатес. Инструктор bodyART, deepWORK и BAX.
 								</p>
-								<p class="team_list-text">
-									Сертифицированный персональный тренер. 
-									<br>Выпускник международной школы Майкл Кинг Пилатес (Великобритания). 
-									<br>Сертифицированный инструктор по программам bodyART, deepWORK и BAX. 
-									<br>Сертифицированный специалист по функциональному тренингу и работе с петлями TRX.  
-									<br>Постоянный презентер российских фитнес конвенций. 
-									<br>Опыт работы более 5 лет.
-								</p>
+
 							</div>
-							<a class="team_list-btn fancyonline" href="#online">Записаться на тренировку</a>
+							<a class="team_list-btn fancyonline" href="#maxim">Записаться на тренировку</a>
 						</div>
 						
 						<div class="team_list-item">
@@ -813,7 +678,7 @@
 									<br>Опыт работы более 3 лет.
 								</p>
 							</div>
-							<a class="team_list-btn fancyonline" href="#online">Записаться на тренировку</a>
+							<a class="team_list-btn fancyonline" href="#yury">Записаться на тренировку</a>
 						</div>
 					</div>
 				</li>		
@@ -877,109 +742,6 @@
 					</a>
 				</div>
             </div>
-
-			<!--<ul class="photo_list">
-
-                <li>
-                    <div class="photo_list-page">
-                        <div class="photo_list-item">
-                            <div class="photo_list-img">
-                                <a class="fancybox" rel="photo" href="files/gallery/1.JPG"><img src="files/gallery/1.JPG" alt="1"></a>
-                            </div>
-                            <div class="photo_list-name">Кардиозона</div>
-                        </div>
-                    </div>
-                </li>
-
-                <li>
-                    <div class="photo_list-page">
-                        <div class="photo_list-item">
-                            <div class="photo_list-img">
-                                <a class="fancybox" rel="photo" href="files/gallery/2.JPG"><img src="files/gallery/2.JPG" alt="2"></a>
-                            </div>
-                            <div class="photo_list-name">Кардиозона</div>
-                        </div>
-                    </div>
-                </li>
-
-                <li>
-                    <div class="photo_list-page">
-                        <div class="photo_list-item">
-                            <div class="photo_list-img">
-                                <a class="fancybox" rel="photo" href="files/gallery/3.JPG"><img src="files/gallery/3.JPG" alt="3"></a>
-                            </div>
-                            <div class="photo_list-name">Кардиозона</div>
-                        </div>
-                    </div>
-                </li>
-
-                <li>
-                    <div class="photo_list-page">
-                        <div class="photo_list-item">
-                            <div class="photo_list-img">
-                                <a class="fancybox" rel="photo" href="files/gallery/4.JPG"><img src="files/gallery/4.JPG" alt="4"></a>
-                            </div>
-                            <div class="photo_list-name">Кардиозона</div>
-                        </div>
-                    </div>
-                </li>
-
-                <li>
-                    <div class="photo_list-page">
-                        <div class="photo_list-item">
-                            <div class="photo_list-img">
-                                <a class="fancybox" rel="photo" href="files/photo/9.jpg"><img src="files/photo/8.jpg" alt="8"></a>
-                            </div>
-                            <div class="photo_list-name">Кардиозона</div>
-                        </div>
-                    </div>
-                </li>
-
-                <li>
-                    <div class="photo_list-page">
-                        <div class="photo_list-item">
-                            <div class="photo_list-img">
-                                <a class="fancybox" rel="photo" href="files/gallery/5.JPG"><img src="files/gallery/5.JPG" alt="5"></a>
-                            </div>
-                            <div class="photo_list-name">Кардиозона</div>
-                        </div>
-                    </div>
-                </li>
-
-                <li>
-                    <div class="photo_list-page">
-                        <div class="photo_list-item">
-                            <div class="photo_list-img">
-                                <a class="fancybox" rel="photo" href="files/gallery/6.JPG"><img src="files/gallery/6.JPG" alt="6"></a>
-                            </div>
-                            <div class="photo_list-name">Кардиозона</div>
-                        </div>
-                    </div>
-                </li>
-
-                <li>
-                    <div class="photo_list-page">
-                        <div class="photo_list-item">
-                            <div class="photo_list-img">
-                                <a class="fancybox" rel="photo" href="files/photo/8.jpg"><img src="files/photo/8.jpg" alt="8"></a>
-                            </div>
-                            <div class="photo_list-name">Кардиозона</div>
-                        </div>
-                    </div>
-                </li>
-
-                <li>
-                    <div class="photo_list-page">
-                        <div class="photo_list-item">
-                            <div class="photo_list-img">
-                                <a class="fancybox" rel="photo" href="files/photo/7.jpg"><img src="files/gallery/7.JPG" alt="7"></a>
-                            </div>
-                            <div class="photo_list-name">Кардиозона</div>
-                        </div>
-                    </div>
-                </li>
-
-			</ul> -->
 		</div>
 	</div>	
 
@@ -1264,12 +1026,22 @@
                 </div>
             </div>
 		</div>
-	</footer> 
+	</footer>
 
-	<div class="popup_online" id="online">
+	<!--popop team block-->
+
+	<div class="popup_online" id="alexey">
 		<a class="popup-close" href="#" onclick="$.fancybox.close(); return false;"></a>
-		<div class="popup_online-title">Запишись<br>на персональную<br>тренировку:</div>
-		<div class="popup_online-text">консультация тренера +<br>клубная карта в подарок!</div>
+		<div class="popup_online-title">Алексей Фёдоров</div>
+		<div class="popup_online-text">
+            <p class="team_list-text">
+                Выпускник с отличием Российского Государственного Университета Физической Культуры, Спорта и Туризма (факультет физической реабилитации).
+                <br>Выпускник международной школы Майкл Кинг Пилатес (Великобритания).
+                <br>Сертифицированный инструктор по Хатха и Аштанга йоге. Проходил обучение в Индии.
+                <br>Сертифицированный инструктор по программам bodyART, deepWORK.
+                <br>Сертифицированный инструктор по функциональному тренингу и работе с петлями TRX.
+                <br>Кандидат в мастера спорта по скалолазанию и туристическому многоборью. Опыт работы более 5 лет.</p>
+        </div>
 		<form class="js-form">
 			<div class="popup_online-row">
 				<input class="input-1" type="text" name="name" placeholder="Имя">
@@ -1277,13 +1049,141 @@
 			<div class="popup_online-row">
 				<input class="input-1 js-phone" type="text" name="phone" placeholder="Телефон">
 			</div>	
-			<div class="popup_online-row">
-				<input class="input-1" type="text" name="email" placeholder="E-mail">
-			</div>
+
             <input type="hidden" name="form_id" value="form13">
-			<input class="popup_online-btn" type="submit" value="записаться">
+			<input class="popup_online-btn" type="submit" value="записаться на тренировку">
 		</form>
 	</div>
+
+    <div class="popup_online" id="pavla">
+        <a class="popup-close" href="#" onclick="$.fancybox.close(); return false;"></a>
+        <div class="popup_online-title">Павла Федорова</div>
+        <div class="popup_online-text">
+            <p class="team_list-text">
+                Выпускница с отличием Российского Государственного Университета Физической Культуры, Спорта и Туризма (факультет физической реабилитации).
+                <br>Сертифицированный персональный тренер.
+                <br>Выпускница международной школы Майкл Кинг Пилатес (Великобритания).
+                <br>Сертифицированный инструктор по функциональному тренингу и работе с петлями TRX.
+                <br>Постоянный презентер российских фитнес конвенций.
+                <br>Кандидат в мастера спорта по лёгкой атлетике.
+                <br>Опыт работы более 5 лет.</p>
+        </div>
+        <form class="js-form">
+            <div class="popup_online-row">
+                <input class="input-1" type="text" name="name" placeholder="Имя">
+            </div>
+            <div class="popup_online-row">
+                <input class="input-1 js-phone" type="text" name="phone" placeholder="Телефон">
+            </div>
+
+            <input type="hidden" name="form_id" value="form16">
+            <input class="popup_online-btn" type="submit" value="записаться на тренировку">
+        </form>
+    </div>
+
+    <div class="popup_online" id="oxana">
+        <a class="popup-close" href="#" onclick="$.fancybox.close(); return false;"></a>
+        <div class="popup_online-title">Оксана Ракитянская</div>
+        <div class="popup_online-text">
+            <p class="team_list-text">
+                Выпускница с отличием Государственной Академии Культуры и искусств, факультет хореографии.
+                <br>Сертифицированный персональный тренер.
+                <br>Слушатель международной школы Майкл Кинг Пилатес (Великобритания).
+                <br>Сертифицированный инструктор по программам bodyART и deepWORK.
+                <br>Опыт работы более 5 лет.</p>
+        </div>
+        <form class="js-form">
+            <div class="popup_online-row">
+                <input class="input-1" type="text" name="name" placeholder="Имя">
+            </div>
+            <div class="popup_online-row">
+                <input class="input-1 js-phone" type="text" name="phone" placeholder="Телефон">
+            </div>
+
+            <input type="hidden" name="form_id" value="form17">
+            <input class="popup_online-btn" type="submit" value="записаться на тренировку">
+        </form>
+    </div>
+
+    <div class="popup_online" id="vika">
+        <a class="popup-close" href="#" onclick="$.fancybox.close(); return false;"></a>
+        <div class="popup_online-title">Виктория Лилл</div>
+        <div class="popup_online-text">
+            <p class="team_list-text">
+                Мастер-тренер и основатель российского представительства международной школы Майкл Кинг Пилатес (Великобритания).
+                <br>Международный мастер-тренер bodyART (Германия).
+                <br>Сертифицированный инструктор по программам deepWORK, BAX.
+                <br>Сертифицированный инструктор по функциональному тренингу и работе с петлями TRX.
+                <br>Ведущая образовательных семинаров, международный фитнес презентер.
+                <br>Опыт работы более 15 лет.
+            </p>
+        </div>
+        <form class="js-form">
+            <div class="popup_online-row">
+                <input class="input-1" type="text" name="name" placeholder="Имя">
+            </div>
+            <div class="popup_online-row">
+                <input class="input-1 js-phone" type="text" name="phone" placeholder="Телефон">
+            </div>
+
+            <input type="hidden" name="form_id" value="form18">
+            <input class="popup_online-btn" type="submit" value="записаться на тренировку">
+        </form>
+    </div>
+
+    <div class="popup_online" id="maxim">
+        <a class="popup-close" href="#" onclick="$.fancybox.close(); return false;"></a>
+        <div class="popup_online-title">Максим Литвинов</div>
+        <div class="popup_online-text">
+            <p class="team_list-text">
+                Сертифицированный персональный тренер.
+                <br>Выпускник международной школы Майкл Кинг Пилатес (Великобритания).
+                <br>Сертифицированный инструктор по программам bodyART, deepWORK и BAX.
+                <br>Сертифицированный специалист по функциональному тренингу и работе с петлями TRX.
+                <br>Постоянный презентер российских фитнес конвенций.
+                <br>Опыт работы более 5 лет.
+            </p>
+        </div>
+        <form class="js-form">
+            <div class="popup_online-row">
+                <input class="input-1" type="text" name="name" placeholder="Имя">
+            </div>
+            <div class="popup_online-row">
+                <input class="input-1 js-phone" type="text" name="phone" placeholder="Телефон">
+            </div>
+
+            <input type="hidden" name="form_id" value="form19">
+            <input class="popup_online-btn" type="submit" value="записаться на тренировку">
+        </form>
+    </div>
+
+    <div class="popup_online" id="yury">
+        <a class="popup-close" href="#" onclick="$.fancybox.close(); return false;"></a>
+        <div class="popup_online-title">Юрий Конахович</div>
+        <div class="popup_online-text">
+            <p class="team_list-text">
+                Выпускник Брестского Государственного Университета Физической Культуры.
+                <br>Сертифицированный персональный тренер.
+                <br>Сертифицированный инструктор по функциональному тренингу и работе с петлями TRX.
+                <br>Слушатель международной Школы Майкл Кинг Пилатес (Великобритания).
+                <br>Кандидат в Мастера спорта по дзюдо.
+                <br>Опыт работы более 3 лет.
+            </p>
+        </div>
+        <form class="js-form">
+            <div class="popup_online-row">
+                <input class="input-1" type="text" name="name" placeholder="Имя">
+            </div>
+            <div class="popup_online-row">
+                <input class="input-1 js-phone" type="text" name="phone" placeholder="Телефон">
+            </div>
+
+            <input type="hidden" name="form_id" value="form20">
+            <input class="popup_online-btn" type="submit" value="записаться на тренировку">
+        </form>
+    </div>
+
+<!--end popup team block-->
 
 	<script src="js/jquery.min.js"></script>
     <script src="js/scripts.js"></script>
